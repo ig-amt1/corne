@@ -39,8 +39,8 @@
 
 &i2c0 {
     compatible = "nordic,nrf-twi";
-    sda-pin = <5>;
-    scl-pin = <6>;
+    nordic,sda-pin = <5>;
+    nordic,scl-pin = <6>;
     status = "okay";
 
     oled: ssd1306@3c {
