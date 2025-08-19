@@ -1,0 +1,54 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp F1  &kp F2  &kp F3
+                &kp F4  &kp F5  &kp F6
+            >;
+        };
+
+        macro_layer {
+            bindings = <
+                &macro_mail  &macro_zoom  &macro_teams
+                &macro_copy  &macro_paste &macro_screenshot
+            >;
+        };
+    };
+
+    macros {
+        macro_mail: macro_mail {
+            label = "MACRO_MAIL";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            bindings = <&kp LGUI &kp NUMBER_1>;
+        };
+
+        macro_zoom: macro_zoom {
+            label = "MACRO_ZOOM";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            bindings = <&kp LGUI &kp NUMBER_2>;
+        };
+
+        macro_copy: macro_copy {
+            label = "MACRO_COPY";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            bindings = <&kp LC(C)>;
+        };
+
+        macro_paste: macro_paste {
+            label = "MACRO_PASTE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            bindings = <&kp LC(V)>;
+        };
+    };
+};
