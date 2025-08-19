@@ -150,15 +150,15 @@ UNDEAD_KEY(grave, BR_GRAVE)
             bindings = <&kp C_VOLUME_UP>, <&kp C_VOL_DN>;
         };
 
-       as: auto_shift {
-               compatible = "zmk,behavior-hold-tap";
-               label = "AutoShift";
-               #binding-cells = <2>;
-               tapping-term-ms = <200>;
-               quick_tap_ms = <0>;
-               flavor = "tap-preferred";
-               bindings = <&kp>, <&kp>;
-       };
+        as: auto_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "AutoShift";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     combos {
@@ -172,7 +172,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
 
         game {
             timeout-ms = <50>;
-            bindings = <&tog 4>;
+            bindings = <&mo 4>;
             key-positions = <16 15>;
             layers = <0>;
         };
@@ -218,7 +218,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
         };
 
         copy {
-            bindings = <&copy>;
+            bindings = <&kp K_COPY>;
             key-positions = <26 27>;
             layers = <6>;
         };
@@ -323,6 +323,41 @@ UNDEAD_KEY(grave, BR_GRAVE)
             bindings = <&tog 5>;
             key-positions = <15 16 37>;
             layers = <0>;
+        };
+
+        rgui {
+            bindings = <&kp LWIN>;
+            key-positions = <35 34>;
+        };
+
+        lgui {
+            bindings = <&kp LWIN>;
+            key-positions = <24 25>;
+        };
+
+        f1 {
+            bindings = <&kp F1>;
+            key-positions = <13 25>;
+        };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <14 26>;
+        };
+
+        f3 {
+            bindings = <&kp F3>;
+            key-positions = <15 27>;
+        };
+
+        f4 {
+            bindings = <&kp F4>;
+            key-positions = <16 28>;
+        };
+
+        f5 {
+            bindings = <&kp F5>;
+            key-positions = <17 29>;
         };
     };
 
@@ -471,7 +506,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &kp LCTRL  &kp Z  &kp X       &kp C           &kp V         &kp B        &kp N    &kp M         &kp COMMA        &kp DOT     &kp BR_SLASH  &kp RC(C_MUTE)
                               &lt 3 CAPSLOCK  &lt 1 ESCAPE  &kp SPACE    &kp RET  &lt 2 DELETE  &lt 6 BACKSPACE
             >;
-             
         };
 
         number_layer {
@@ -481,7 +515,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &kp LEFT_BRACKET  &kp BR_UNDER  &kp BR_LBRC  &kp BR_RBRC   &kp BR_LT    &kp BR_GT       &kp BR_COLON  &kp N1     &kp N2  &kp N3  &kp BR_EQUAL  &kp RIGHT_BRACE
                                              &none         &none        &none           &kp BR_ASTRK  &kp BR_N0  &tog 1
             >;
-            
         };
 
         symbol_layer {
@@ -491,7 +524,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &kp LEFT_ALT  &kp BR_EXCL   &kp PERCENT  &kp BR_LBKT  &kp BR_RBKT  &kp BR_PIPE    &kp BR_TILDE  &E_circ   &A_circ   &O_circ   &A_grave     &kp F20
                                          &none        &tog 2       &cao           &none         &trans    &none
             >;
-        
         };
 
         accent_layer {

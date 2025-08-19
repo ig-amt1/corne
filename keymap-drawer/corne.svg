@@ -330,8 +330,7 @@ svg.keymap {
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <a href="#function">
 <text x="224" y="88" class="combo tap layer-activator"><tspan style="font-size: 75%">function</tspan></text>
-</a><text x="224" y="98" class="combo hold">toggle</text>
-</g>
+</a></g>
 <g class="combo combopos-1">
 <path d="M168,37 l-66,10" class="combo"/>
 <path d="M168,37 l65,-1" class="combo"/>
@@ -444,6 +443,34 @@ svg.keymap {
 <a href="#game">
 <text x="245" y="129" class="combo tap layer-activator">game</text>
 </a><text x="245" y="140" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-23">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-24">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-25">
+<rect rx="6" ry="6" x="70" y="120" width="28" height="26" class="combo"/>
+<text x="84" y="133" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-26">
+<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
+<text x="140" y="119" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-27">
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-28">
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<text x="252" y="119" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-29">
+<rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
+<text x="308" y="126" class="combo tap">F5</text>
 </g>
 </g>
 </g>
@@ -637,6 +664,34 @@ svg.keymap {
 <a href="#number">
 <text x="0" y="0" class="key tap layer-activator">number</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="70" y="120" width="28" height="26" class="combo"/>
+<text x="84" y="133" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
+<text x="140" y="119" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<text x="252" y="119" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
+<text x="308" y="126" class="combo tap">F5</text>
 </g>
 </g>
 </g>
@@ -834,6 +889,34 @@ svg.keymap {
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="70" y="120" width="28" height="26" class="combo"/>
+<text x="84" y="133" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
+<text x="140" y="119" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<text x="252" y="119" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
+<text x="308" y="126" class="combo tap">F5</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 992)" class="layer-accent">
@@ -1012,6 +1095,34 @@ svg.keymap {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">DEL</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="70" y="120" width="28" height="26" class="combo"/>
+<text x="84" y="133" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
+<text x="140" y="119" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<text x="252" y="119" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
+<text x="308" y="126" class="combo tap">F5</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1323)" class="layer-function">
@@ -1088,13 +1199,11 @@ svg.keymap {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(196, 84)" class="key trans keypos-15">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(196, 84)" class="key held keypos-15">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
-<g transform="translate(252, 91)" class="key trans keypos-16">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(252, 91)" class="key held keypos-16">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(308, 98)" class="key trans keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1199,6 +1308,34 @@ svg.keymap {
 <a href="#function">
 <text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 75%">function</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="70" y="120" width="28" height="26" class="combo"/>
+<text x="84" y="133" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
+<text x="140" y="119" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<text x="252" y="119" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
+<text x="308" y="126" class="combo tap">F5</text>
 </g>
 </g>
 </g>
@@ -1399,6 +1536,34 @@ svg.keymap {
 <path d="M644,33 l37,2" class="combo"/>
 <rect rx="6" ry="6" x="630" y="20" width="28" height="26" class="combo"/>
 <text x="644" y="33" class="combo tap">&amp;lock</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="70" y="120" width="28" height="26" class="combo"/>
+<text x="84" y="133" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
+<text x="140" y="119" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<text x="252" y="119" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
+<text x="308" y="126" class="combo tap">F5</text>
 </g>
 </g>
 </g>
@@ -1618,7 +1783,35 @@ svg.keymap {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">&amp;copy</text>
+<text x="168" y="144" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="70" y="120" width="28" height="26" class="combo"/>
+<text x="84" y="133" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
+<text x="140" y="119" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<text x="252" y="119" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
+<text x="308" y="126" class="combo tap">F5</text>
 </g>
 </g>
 </g>
@@ -1797,6 +1990,34 @@ svg.keymap {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="70" y="120" width="28" height="26" class="combo"/>
+<text x="84" y="133" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
+<text x="140" y="119" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<text x="252" y="119" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
+<text x="308" y="126" class="combo tap">F5</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2645)" class="layer-8">
@@ -1969,6 +2190,34 @@ svg.keymap {
 <g transform="translate(616, 205)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">LWIN</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="70" y="120" width="28" height="26" class="combo"/>
+<text x="84" y="133" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
+<text x="140" y="119" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
+<text x="252" y="119" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
+<text x="308" y="126" class="combo tap">F5</text>
 </g>
 </g>
 </g>

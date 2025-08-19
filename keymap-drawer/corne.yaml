@@ -188,8 +188,8 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - SCROLL DOWN
   - F5
@@ -389,7 +389,7 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [16, 15]
-  k: {t: function, h: toggle}
+  k: function
   l: [base]
 - p: [1, 2, 3, 4]
   k: '&close'
@@ -410,7 +410,7 @@ combos:
   k: '&lock'
   l: [game]
 - p: [26, 27]
-  k: '&copy'
+  k: COPY
   l: [nav]
 - p: [27, 28]
   k: '&paste'
@@ -463,3 +463,17 @@ combos:
 - p: [15, 16, 37]
   k: {t: game, h: toggle}
   l: [base]
+- p: [35, 34]
+  k: LWIN
+- p: [24, 25]
+  k: LWIN
+- p: [13, 25]
+  k: F1
+- p: [14, 26]
+  k: F2
+- p: [15, 27]
+  k: F3
+- p: [16, 28]
+  k: F4
+- p: [17, 29]
+  k: F5
