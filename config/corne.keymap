@@ -154,10 +154,10 @@ UNDEAD_KEY(grave, BR_GRAVE)
             compatible = "zmk,behavior-hold-tap";
             label = "AutoShift";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <190>;
             quick_tap_ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
+            flavor = "hold-preferred";
+            bindings = <&shift>, <&kp>;
         };
     };
 
@@ -493,6 +493,20 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 <&kp LEFT_ALT>;
 
             label = "NEW_TAB";
+        };
+
+        shift: shift {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
+
+            label = "SHIFT";
         };
     };
 
