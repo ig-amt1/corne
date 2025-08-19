@@ -36,22 +36,13 @@ layers:
   - COMMA
   - DOT
   - INT1
-  - Ctl+MUTE
+  - MUTE
   - {t: CAPSLOCK, h: accent}
-  - {t: ESCAPE, h: number}
+  - {t: ESC, h: number}
   - SPACE
   - RET
   - {t: DELETE, h: symbol}
   - {t: BACKSPACE, h: nav}
-  - LEFT ARROW
-  - UP ARROW
-  - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - DOWN ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   number:
   - {t: ▽, type: trans}
   - Sft+1
@@ -95,15 +86,6 @@ layers:
   - Sft+8
   - '0'
   - {t: number, h: toggle}
-  - LEFT ARROW
-  - UP ARROW
-  - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - DOWN ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   symbol:
   - {t: ▽, type: trans}
   - Sft+8
@@ -147,15 +129,6 @@ layers:
   - ''
   - {type: held}
   - ''
-  - LEFT ARROW
-  - UP ARROW
-  - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - DOWN ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   accent:
   - {t: ▽, type: trans}
   - ''
@@ -199,15 +172,6 @@ layers:
   - ENTER
   - BSPC
   - DEL
-  - LEFT ARROW
-  - UP ARROW
-  - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - DOWN ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   function:
   - {t: ▽, type: trans}
   - BT CLR ALL
@@ -251,15 +215,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: function, h: toggle}
-  - LEFT ARROW
-  - UP ARROW
-  - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - DOWN ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   game:
   - TAB
   - Q
@@ -291,7 +246,7 @@ layers:
   - C
   - V
   - B
-  - Gui+MUTE
+  - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -299,18 +254,9 @@ layers:
   - {t: game, h: toggle}
   - {t: M, h: LEFT ALT}
   - SPACE
-  - {t: ESCAPE, h: fgame}
+  - {t: ESC, h: fgame}
   - {t: ▽, type: trans}
   - RIGHT WIN
-  - {t: ▽, type: trans}
-  - LEFT ARROW
-  - UP ARROW
-  - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - DOWN ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   nav:
   - '&tab'
@@ -355,15 +301,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - LEFT ARROW
-  - UP ARROW
-  - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - DOWN ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   fgame:
   - {t: ▽, type: trans}
   - H
@@ -407,11 +344,45 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - UP ARROW
-  - RIGHT ARROW
+  '8':
   - {t: ▽, type: trans}
-  - DOWN ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

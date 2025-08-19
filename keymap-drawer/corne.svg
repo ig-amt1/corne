@@ -290,9 +290,7 @@ svg.keymap {
 </g>
 <g transform="translate(812, 161)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+</tspan><tspan x="0" dy="1.2em">MUTE</tspan>
-</text>
+<text x="0" y="0" class="key tap">MUTE</text>
 </g>
 <g transform="translate(224, 205)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -302,7 +300,7 @@ svg.keymap {
 </a></g>
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ESCAPE</text>
+<text x="0" y="0" class="key tap">ESC</text>
 <a href="#number">
 <text x="0" y="24" class="key hold layer-activator">number</text>
 </a></g>
@@ -1337,9 +1335,7 @@ svg.keymap {
 </g>
 <g transform="translate(532, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Gui+</tspan><tspan x="0" dy="1.2em">MUTE</tspan>
-</text>
+<text x="0" y="0" class="key tap">MUTE</text>
 </g>
 <g transform="translate(588, 147)" class="key trans keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1376,7 +1372,7 @@ svg.keymap {
 </g>
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">ESCAPE</text>
+<text x="0" y="0" class="key tap">ESC</text>
 <a href="#fgame">
 <text x="0" y="38" class="key hold layer-activator">fgame</text>
 </a></g>
