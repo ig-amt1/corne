@@ -1,0 +1,3 @@
+layout: {zmk_keyboard: dongle}
+layers:
+  default: ['&macro_tap', Ctl+ESC, '&macro_tap', Gui+L, '&macro_tap', Gui+D]
