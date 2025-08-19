@@ -460,6 +460,14 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &kp LSHFT  &kp A  &hm LALT S  &hm LSHFT D     &hm LCTRL F   &kp G        &kp H    &hm RCTRL J   &hm RSHFT K      &hm RALT L  &kp BR_SEMI   &kp C_VOLUME_DOWN
 &kp LCTRL  &kp Z  &kp X       &kp C           &kp V         &kp B        &kp N    &kp M         &kp COMMA        &kp DOT     &kp BR_SLASH  &kp RC(C_MUTE)
                               &lt 3 CAPSLOCK  &lt 1 ESCAPE  &kp SPACE    &kp RET  &lt 2 DELETE  &lt 6 BACKSPACE
+
+                // ------ Dongle nav layer (seta arrows) ------
+                &kp LEFT &kp UP &kp RIGHT
+                &trans   &kp DOWN &trans
+                &trans   &trans   &trans
+
+                // Encoder igual
+                &inc VOL_UP &dec VOL_DOWN
             >;
         };
 
@@ -469,6 +477,14 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &trans            &kp BR_GRAVE  &kp BR_AMPS  &kp BR_ASTRK  &kp BR_LPAR  &kp BR_RPAR     &kp MINUS     &kp N4     &kp N5  &kp N6  &kp COMMA     &kp LEFT_BRACE
 &kp LEFT_BRACKET  &kp BR_UNDER  &kp BR_LBRC  &kp BR_RBRC   &kp BR_LT    &kp BR_GT       &kp BR_COLON  &kp N1     &kp N2  &kp N3  &kp BR_EQUAL  &kp RIGHT_BRACE
                                              &none         &none        &none           &kp BR_ASTRK  &kp BR_N0  &tog 1
+
+                // ------ Dongle nav layer (seta arrows) ------
+                &kp LEFT &kp UP &kp RIGHT
+                &trans   &kp DOWN &trans
+                &trans   &trans   &trans
+
+                // Encoder igual
+                &inc VOL_UP &dec VOL_DOWN
             >;
         };
 
@@ -478,6 +494,14 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &trans        &kp BR_COLON  &kp BR_AT    &kp BR_LPAR  &kp BR_RPAR  &kp BR_DQT     &kp BR_ACUT   &I_acute  &A_acute  &O_acute  &E_acute     &kp F10
 &kp LEFT_ALT  &kp BR_EXCL   &kp PERCENT  &kp BR_LBKT  &kp BR_RBKT  &kp BR_PIPE    &kp BR_TILDE  &E_circ   &A_circ   &O_circ   &A_grave     &kp F20
                                          &none        &tog 2       &cao           &none         &trans    &none
+
+                // ------ Dongle nav layer (seta arrows) ------
+                &kp LEFT &kp UP &kp RIGHT
+                &trans   &kp DOWN &trans
+                &trans   &trans   &trans
+
+                // Encoder igual
+                &inc VOL_UP &dec VOL_DOWN
             >;
         };
 
@@ -487,6 +511,14 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &trans  &kp GRAVE  &kp DQT  &kp SQT   &kp EXCL   &kp TILDE    &kp GRAVE  &I_acute  &A_acute  &O_acute  &E_acute     &trans
 &trans  &none      &none    &ac_ccdi  &none      &none        &A_grave   &E_circ   &A_circ   &O_circ   &kp TILDE    &tog 3
                             &trans    &trans     &trans       &kp ENTER  &kp BSPC  &kp DEL
+
+                // ------ Dongle nav layer (seta arrows) ------
+                &kp LEFT &kp UP &kp RIGHT
+                &trans   &kp DOWN &trans
+                &trans   &trans   &trans
+
+                // Encoder igual
+                &inc VOL_UP &dec VOL_DOWN
             >;
         };
 
@@ -496,6 +528,20 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &trans      &bt BT_CLR      &trans        &trans        &trans        &trans          &kp K_SCROLL_DOWN  &kp F5  &kp F6   &kp F7   &kp F8   &trans
 &sys_reset  &bootloader     &trans        &trans        &trans        &trans          &trans             &kp F9  &kp F10  &kp F11  &kp F12  &trans
                                           &trans        &trans        &trans          &trans             &trans  &tog 4
+
+                // ------ Dongle nav layer (seta arrows) ------
+                &kp LEFT &kp UP &kp RIGHT
+                &trans   &kp DOWN &trans
+                &trans   &trans   &trans
+
+                // Encoder igual
+                &inc VOL_UP &dec VOL_DOWN                // ------ Dongle nav layer (seta arrows) ------
+                &kp LEFT &kp UP &kp RIGHT
+                &trans   &kp DOWN &trans
+                &trans   &trans   &trans
+
+                // Encoder igual
+                &inc VOL_UP &dec VOL_DOWN
             >;
         };
 
@@ -505,6 +551,14 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &kp LEFT_SHIFT  &kp A  &kp S  &kp D           &kp F      &kp G           &kp C_VOLUME_DOWN  &trans         &kp LEFT_SHIFT  &trans  &trans        &to 0
 &kp LCTRL       &kp Z  &kp X  &kp C           &kp V      &kp B           &kp RG(C_MUTE)     &trans         &trans          &trans  &kp LEFT_GUI  &tog 5
                               &mt LEFT_ALT M  &kp SPACE  &lt 7 ESCAPE    &trans             &kp RIGHT_WIN  &trans
+
+                // ------ Dongle nav layer (seta arrows) ------
+                &kp LEFT &kp UP &kp RIGHT
+                &trans   &kp DOWN &trans
+                &trans   &trans   &trans
+
+                // Encoder igual
+                &inc VOL_UP &dec VOL_DOWN
             >;
         };
 
@@ -514,6 +568,14 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &trans  &bt BT_CLR_ALL  &kp PRINTSCREEN  &kp HOME      &kp END           &kp PG_DN    &kp C_VOLUME_DOWN  &kp LEFT_ARROW     &kp DOWN      &kp RIGHT      &kp LGUI       &trans
 &tog 6  &sk LEFT_GUI    &sk LALT         &sk LSHFT     &sk LEFT_CONTROL  &new_tab     &kp K_MUTE         &sk RIGHT_CONTROL  &sk RSHFT     &sk RIGHT_ALT  &sk RIGHT_WIN  &trans
                                          &trans        &lt 4 END         &kp LALT     &trans             &trans             &trans
+
+                // ------ Dongle nav layer (seta arrows) ------
+                &kp LEFT &kp UP &kp RIGHT
+                &trans   &kp DOWN &trans
+                &trans   &trans   &trans
+
+                // Encoder igual
+                &inc VOL_UP &dec VOL_DOWN
             >;
         };
 
@@ -523,16 +585,15 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &trans  &trans  &trans  &trans        &kp NUMBER_4  &kp N5          &trans  &trans  &trans  &trans  &trans  &trans
 &tog 4  &none   &to 0   &none         &kp O         &kp M           &trans  &trans  &trans  &trans  &trans  &to 0
                         &kp J         &kp I         &kp M           &trans  &trans  &trans
+                // ------ Dongle nav layer (seta arrows) ------
+                &kp LEFT &kp UP &kp RIGHT
+                &trans   &kp DOWN &trans
+                &trans   &trans   &trans
+
+                // Encoder igual
+                &inc VOL_UP &dec VOL_DOWN
             >;
         };
 
-        layer_8 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
     };
 };
