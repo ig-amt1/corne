@@ -461,6 +461,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &kp LCTRL  &kp Z  &kp X       &kp C           &kp V         &kp B        &kp N    &kp M         &kp COMMA        &kp DOT     &kp BR_SLASH  &kp RC(C_MUTE)
                               &lt 3 CAPSLOCK  &lt 1 ESCAPE  &kp SPACE    &kp RET  &lt 2 DELETE  &lt 6 BACKSPACE
             >;
+             sensor-bindings = <&inc_dec_cp DOWN_ARROW UP_ARROW>;
         };
 
         number_layer {
@@ -470,6 +471,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &kp LEFT_BRACKET  &kp BR_UNDER  &kp BR_LBRC  &kp BR_RBRC   &kp BR_LT    &kp BR_GT       &kp BR_COLON  &kp N1     &kp N2  &kp N3  &kp BR_EQUAL  &kp RIGHT_BRACE
                                              &none         &none        &none           &kp BR_ASTRK  &kp BR_N0  &tog 1
             >;
+             sensor-bindings = <&inc_dec_cp DOWN_ARROW UP_ARROW>;
         };
 
         symbol_layer {
@@ -479,6 +481,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &kp LEFT_ALT  &kp BR_EXCL   &kp PERCENT  &kp BR_LBKT  &kp BR_RBKT  &kp BR_PIPE    &kp BR_TILDE  &E_circ   &A_circ   &O_circ   &A_grave     &kp F20
                                          &none        &tog 2       &cao           &none         &trans    &none
             >;
+             sensor-bindings = <&inc_dec_cp DOWN_ARROW UP_ARROW>;
         };
 
         accent_layer {
@@ -488,6 +491,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &trans  &none      &none    &ac_ccdi  &none      &none        &A_grave   &E_circ   &A_circ   &O_circ   &kp TILDE    &tog 3
                             &trans    &trans     &trans       &kp ENTER  &kp BSPC  &kp DEL
             >;
+             sensor-bindings = <&inc_dec_cp DOWN_ARROW UP_ARROW>;
         };
 
         function_layer {
@@ -497,6 +501,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &sys_reset  &bootloader     &trans        &trans        &trans        &trans          &trans             &kp F9  &kp F10  &kp F11  &kp F12  &trans
                                           &trans        &trans        &trans          &trans             &trans  &tog 4
             >;
+             sensor-bindings = <&inc_dec_cp DOWN_ARROW UP_ARROW>;
         };
 
         game_layer {
@@ -515,6 +520,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &tog 6  &sk LEFT_GUI    &sk LALT         &sk LSHFT     &sk LEFT_CONTROL  &new_tab     &kp K_MUTE         &sk RIGHT_CONTROL  &sk RSHFT     &sk RIGHT_ALT  &sk RIGHT_WIN  &trans
                                          &trans        &lt 4 END         &kp LALT     &trans             &trans             &trans
             >;
+             sensor-bindings = <&inc_dec_cp DOWN_ARROW UP_ARROW>;
         };
 
         fgame_layer {
@@ -524,6 +530,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &tog 4  &none   &to 0   &none         &kp O         &kp M           &trans  &trans  &trans  &trans  &trans  &to 0
                         &kp J         &kp I         &kp M           &trans  &trans  &trans
             >;
+             sensor-bindings = <&inc_dec_cp DOWN_ARROW UP_ARROW>;
         };
 
         layer_8 {
@@ -533,6 +540,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
+             sensor-bindings = <&inc_dec_cp DOWN_ARROW UP_ARROW>;
         };
     };
 };
