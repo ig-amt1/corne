@@ -467,7 +467,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 &trans   &trans   &trans
 
                 // Encoder igual
-                &inc VOL_UP &dec VOL_DOWN
+               &inc C_VOLUME_UP, &dec C_VOLUME_DOWN
             >;
         };
 
@@ -484,7 +484,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 &trans   &trans   &trans
 
                 // Encoder igual
-                &inc VOL_UP &dec VOL_DOWN
+               &inc C_VOLUME_UP, &dec C_VOLUME_DOWN
             >;
         };
 
@@ -501,7 +501,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 &trans   &trans   &trans
 
                 // Encoder igual
-                &inc VOL_UP &dec VOL_DOWN
+                &inc C_VOLUME_UP, &dec C_VOLUME_DOWN
             >;
         };
 
@@ -518,7 +518,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 &trans   &trans   &trans
 
                 // Encoder igual
-                &inc VOL_UP &dec VOL_DOWN
+                &inc C_VOLUME_UP, &dec C_VOLUME_DOWN
             >;
         };
 
@@ -541,7 +541,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 &trans   &trans   &trans
 
                 // Encoder igual
-                &inc VOL_UP &dec VOL_DOWN
+               &inc C_VOLUME_UP, &dec C_VOLUME_DOWN
             >;
         };
 
@@ -558,7 +558,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 &trans   &trans   &trans
 
                 // Encoder igual
-                &inc VOL_UP &dec VOL_DOWN
+                &inc C_VOLUME_UP, &dec C_VOLUME_DOWN
             >;
         };
 
@@ -575,7 +575,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 &trans   &trans   &trans
 
                 // Encoder igual
-                &inc VOL_UP &dec VOL_DOWN
+                &inc C_VOLUME_UP, &dec C_VOLUME_DOWN
             >;
         };
 
@@ -591,9 +591,8 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 &trans   &trans   &trans
 
                 // Encoder igual
-                &inc VOL_UP &dec VOL_DOWN
+                &inc C_VOLUME_UP, &dec C_VOLUME_DOWN
             >;
         };
-
     };
 };
