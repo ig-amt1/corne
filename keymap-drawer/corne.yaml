@@ -36,9 +36,9 @@ layers:
   - COMMA
   - DOT
   - INT1
-  - MUTE
+  - Ctl+MUTE
   - {t: CAPSLOCK, h: accent}
-  - {t: ESC, h: number}
+  - {t: ESCAPE, h: number}
   - SPACE
   - RET
   - {t: DELETE, h: symbol}
@@ -246,7 +246,7 @@ layers:
   - C
   - V
   - B
-  - MUTE
+  - Gui+MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -254,7 +254,7 @@ layers:
   - {t: game, h: toggle}
   - {t: M, h: LEFT ALT}
   - SPACE
-  - {t: ESC, h: fgame}
+  - {t: ESCAPE, h: fgame}
   - {t: ▽, type: trans}
   - RIGHT WIN
   - {t: ▽, type: trans}
