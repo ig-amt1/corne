@@ -1,16 +1,19 @@
 #include "keys_br_abnt2.h"
 #include "helper.h"
 #include "accents.dtsi"
+
+//#include <dt-bindings/zmk/pointing.h>
+
+#include <dt-bindings/zmk/mouse.h>
+
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+
+#include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-
-//#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/mouse.h>
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
-#include <behaviors/mouse_keys.dtsi>
-
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NUME 1
@@ -176,7 +179,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
         //  bindings = <&caps_word>;
         //  };
 
-        game {
+        fn {
             timeout-ms = <50>;
             bindings = <&mo 4>;
             key-positions = <16 15>;
@@ -226,7 +229,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
         copy {
             bindings = <&kp K_COPY>;
             key-positions = <26 27>;
-            layers = <6>;
+            layers = <0>;
         };
 
         paste {
@@ -334,11 +337,13 @@ UNDEAD_KEY(grave, BR_GRAVE)
         rgui {
             bindings = <&kp LWIN>;
             key-positions = <35 34>;
+            layers = <0>;
         };
 
         lgui {
             bindings = <&kp LWIN>;
             key-positions = <24 25>;
+            layers = <0>;
         };
 
         f1 {
@@ -521,10 +526,10 @@ UNDEAD_KEY(grave, BR_GRAVE)
 
         base_layer {
             bindings = <
-&kp TAB    &kp Q  &kp W       &kp E           &kp R         &kp T        &kp Y    &kp U         &kp I            &kp O       &kp P         &kp C_VOLUME_UP
-&kp LSHFT  &kp A  &hm LALT S  &hm LSHFT D     &hm LCTRL F   &kp G        &kp H    &hm RCTRL J   &hm RSHFT K      &hm RALT L  &kp BR_SEMI   &kp C_VOLUME_DOWN
-&kp LCTRL  &kp Z  &kp X       &kp C           &kp V         &kp B        &kp N    &kp M         &kp COMMA        &kp DOT     &kp BR_SLASH  &kp RC(C_MUTE)
-                              &lt 3 CAPSLOCK  &lt 1 ESCAPE  &kp SPACE    &kp RET  &lt 2 DELETE  &lt 6 BACKSPACE
+&kp TAB    &kp Q  &kp W       &kp E           &kp R         &kp T          &kp Y    &kp U         &kp I            &kp O       &kp P         &kp C_VOLUME_UP
+&kp LSHFT  &kp A  &hm LALT S  &hm LSHFT D     &hm LCTRL F   &kp G          &kp H    &hm RCTRL J   &hm RSHFT K      &hm RALT L  &kp BR_SEMI   &kp C_VOLUME_DOWN
+&kp LCTRL  &kp Z  &kp X       &kp C           &kp V         &kp B          &kp N    &kp M         &kp COMMA        &kp DOT     &kp BR_SLASH  &kp RC(C_MUTE)
+                              &lt 3 CAPSLOCK  &lt 1 ESCAPE  &lt 8 SPACE    &kp RET  &lt 2 DELETE  &lt 6 BACKSPACE
             >;
         };
 
@@ -591,13 +596,15 @@ UNDEAD_KEY(grave, BR_GRAVE)
             >;
         };
 
-        layer_8 {
+        mouse_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans          &trans           &trans  &trans
+                        &trans  &trans  &trans    &trans          &trans          &trans
             >;
+
+            label = "MOUSE";
         };
     };
 };
