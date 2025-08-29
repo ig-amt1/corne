@@ -286,8 +286,8 @@ layers:
   - {t: nav, h: toggle}
   - {t: LEFT GUI, h: sticky}
   - {t: LALT, h: sticky}
-  - {t: LSHFT, h: sticky}
-  - {t: LEFT CONTROL, h: sticky}
+  - '&copy'
+  - '&paste'
   - '&new_tab'
   - MUTE
   - {t: RIGHT CONTROL, h: sticky}
