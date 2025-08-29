@@ -367,7 +367,7 @@ combos:
   k: '&lock'
   l: [game]
 - p: [26, 27]
-  k: COPY
+  k: '&copy'
   l: [base]
 - p: [27, 28]
   k: '&paste'
@@ -436,3 +436,5 @@ combos:
   k: F4
 - p: [17, 29]
   k: F5
+- p: [25, 26]
+  k: '&CUT'

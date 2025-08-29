@@ -367,7 +367,7 @@ svg.keymap {
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
-<text x="168" y="144" class="combo tap">COPY</text>
+<text x="168" y="144" class="combo tap">&amp;copy</text>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
@@ -476,6 +476,10 @@ svg.keymap {
 <g class="combo combopos-30">
 <rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
 <text x="308" y="126" class="combo tap">F5</text>
+</g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
+<text x="112" y="154" class="combo tap">&amp;CUT</text>
 </g>
 </g>
 </g>
@@ -688,6 +692,10 @@ svg.keymap {
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
 <text x="308" y="126" class="combo tap">F5</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
+<text x="112" y="154" class="combo tap">&amp;CUT</text>
 </g>
 </g>
 </g>
@@ -905,6 +913,10 @@ svg.keymap {
 <rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
 <text x="308" y="126" class="combo tap">F5</text>
 </g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
+<text x="112" y="154" class="combo tap">&amp;CUT</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 992)" class="layer-accent">
@@ -1102,6 +1114,10 @@ svg.keymap {
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
 <text x="308" y="126" class="combo tap">F5</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
+<text x="112" y="154" class="combo tap">&amp;CUT</text>
 </g>
 </g>
 </g>
@@ -1308,6 +1324,10 @@ svg.keymap {
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
 <text x="308" y="126" class="combo tap">F5</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
+<text x="112" y="154" class="combo tap">&amp;CUT</text>
 </g>
 </g>
 </g>
@@ -1528,6 +1548,10 @@ svg.keymap {
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
 <text x="308" y="126" class="combo tap">F5</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
+<text x="112" y="154" class="combo tap">&amp;CUT</text>
 </g>
 </g>
 </g>
@@ -1761,6 +1785,10 @@ svg.keymap {
 <rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
 <text x="308" y="126" class="combo tap">F5</text>
 </g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
+<text x="112" y="154" class="combo tap">&amp;CUT</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2315)" class="layer-fgame">
@@ -1957,6 +1985,10 @@ svg.keymap {
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="294" y="113" width="28" height="26" class="combo"/>
 <text x="308" y="126" class="combo tap">F5</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="98" y="141" width="28" height="26" class="combo"/>
+<text x="112" y="154" class="combo tap">&amp;CUT</text>
 </g>
 </g>
 </g>

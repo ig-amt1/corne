@@ -220,7 +220,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
         };
 
         copy {
-            bindings = <&kp K_COPY>;
+            bindings = <&copy>;
             key-positions = <26 27>;
             layers = <0>;
         };
@@ -362,6 +362,11 @@ UNDEAD_KEY(grave, BR_GRAVE)
         f5 {
             bindings = <&kp F5>;
             key-positions = <17 29>;
+        };
+
+        CUT {
+            bindings = <&CUT>;
+            key-positions = <25 26>;
         };
     };
 
@@ -511,6 +516,20 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 <&kp LEFT_SHIFT>;
 
             label = "SHIFT";
+        };
+
+        CUT: CUT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp X>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "CUT";
         };
     };
 
