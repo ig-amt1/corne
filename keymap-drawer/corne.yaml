@@ -292,8 +292,8 @@ layers:
   - MUTE
   - {t: RIGHT CONTROL, h: sticky}
   - {t: RSHFT, h: sticky}
-  - {t: RIGHT ALT, h: sticky}
-  - {t: RIGHT WIN, h: sticky}
+  - '&tabdwn'
+  - '&tabup'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: END, h: function}
