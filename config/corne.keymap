@@ -518,20 +518,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
             label = "SHIFT";
         };
 
-        CUT: CUT {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LCTRL>,
-                <&macro_tap>,
-                <&kp X>,
-                <&macro_release>,
-                <&kp LCTRL>;
-
-            label = "CUT";
-        };
-
         tabup: tabup {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
