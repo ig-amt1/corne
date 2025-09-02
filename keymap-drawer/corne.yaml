@@ -174,11 +174,11 @@ layers:
   - DEL
   function:
   - {t: ▽, type: trans}
-  - BT CLR ALL
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - OUT TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - SCROLL UP
   - F1
   - F2
@@ -186,7 +186,7 @@ layers:
   - F4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
@@ -197,8 +197,8 @@ layers:
   - F7
   - F8
   - {t: ▽, type: trans}
-  - Reset
-  - Boot
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
