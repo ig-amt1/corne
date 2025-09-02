@@ -131,35 +131,11 @@ UNDEAD_KEY(grave, BR_GRAVE)
             #binding-cells = <1>;
         };
 
-        encoder_behavior: encoder_behavior {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            label = "ENCODER_BEHAVIOR";
-            #sensor-binding-cells = <2>;
-            bindings = <&none>, <&none>;
-        };
-
         tap_behavior: tap_behavior {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_BEHAVIOR";
             #binding-cells = <0>;
             bindings = <&none>;
-        };
-
-        encoder1_behavior: encoder1_behavior {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "ENCODER1_BEHAVIOR";
-            #sensor-binding-cells = <0>;
-            bindings = <&kp C_VOLUME_UP>, <&kp C_VOL_DN>;
-        };
-
-        as: auto_shift {
-            compatible = "zmk,behavior-hold-tap";
-            label = "AutoShift";
-            #binding-cells = <2>;
-            tapping-term-ms = <190>;
-            quick_tap_ms = <0>;
-            flavor = "hold-preferred";
-            bindings = <&shift>, <&kp>;
         };
     };
 
@@ -362,11 +338,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
         f5 {
             bindings = <&kp F5>;
             key-positions = <17 29>;
-        };
-
-        CUT {
-            bindings = <&CUT>;
-            key-positions = <25 26>;
         };
     };
 
