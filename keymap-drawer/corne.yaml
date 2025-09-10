@@ -5,8 +5,8 @@ layers:
   - Q
   - W
   - E
-  - R
-  - T
+  - {t: R, h: acute}
+  - {t: T, h: circ}
   - Y
   - U
   - I
@@ -34,7 +34,7 @@ layers:
   - N
   - M
   - COMMA
-  - DOT
+  - {t: DOT, h: tilde}
   - INT1
   - Ctl+MUTE
   - {t: CAPSLOCK, h: accent}
@@ -178,7 +178,7 @@ layers:
   - {t: ▽, type: trans}
   - '&ecirc'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - Sft+SQT
   - '&ucirc'
   - '&icirc'
@@ -188,8 +188,8 @@ layers:
   - {t: ▽, type: trans}
   - '&acirc'
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,7 +220,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '&E_acute_down', s: '&E_acute_up'}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -292,15 +292,15 @@ layers:
   - SQT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   function:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
