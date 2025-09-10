@@ -366,33 +366,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 <&A_tilde>;
         };
 
-        ao: ao {
-            compatible = "zmk,behavior-macro";
-            label = "AO";
-            #binding-cells = <0>;
-            bindings = <&always_tilde &kp A &kp O>;
-        };
 
-        oes: oes {
-            compatible = "zmk,behavior-macro";
-            label = "OES";
-            #binding-cells = <0>;
-            bindings = <&always_tilde &kp O &kp E &kp S>;
-        };
-
-        aes: aes {
-            compatible = "zmk,behavior-macro";
-            label = "AES";
-            #binding-cells = <0>;
-            bindings = <&always_tilde &kp A &kp E &kp S>;
-        };
-
-        icirc: icirc {
-            compatible = "zmk,behavior-macro";
-            label = "ICIRC";
-            #binding-cells = <0>;
-            bindings = <&always_circ &kp I>;
-        };
 
         guilt: guilt {
             compatible = "zmk,behavior-macro";
@@ -585,32 +559,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
             >;
         };
 
-        circ_layer {
-            bindings = <
-&trans  &trans  &trans  &ecirc       &trans  &trans    &kp BR_CIRC  &ucirc  &icirc  &O_circ  &trans  &trans
-&trans  &acirc  &trans  &trans       &trans  &trans    &trans       &trans  &trans  &trans   &trans  &trans
-&trans  &trans  &trans  &kp BR_CCED  &trans  &trans    &trans       &trans  &trans  &trans   &trans  &trans
-                        &trans       &trans  &trans    &trans       &trans  &trans
-            >;
-        };
 
-        acute_layer {
-            bindings = <
-&trans  &trans    &trans       &E_acute     &trans  &trans    &trans  &trans  &trans  &oes    &trans  &trans
-&trans  &A_acute  &kp BR_ACUT  &trans       &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans       &kp BR_CCED  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                               &trans       &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        tilde_layer {
-            bindings = <
-&trans  &trans   &trans  &trans  &trans  &trans    &trans        &trans  &trans  &oes    &trans  &trans
-&trans  &atilde  &ao     &aes    &trans  &trans    &trans        &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &trans  &cao    &trans  &trans    &kp BR_TILDE  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans    &trans        &trans  &trans
-            >;
-        };
 
         function_layer {
             bindings = <
