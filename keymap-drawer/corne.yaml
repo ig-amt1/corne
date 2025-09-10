@@ -42,7 +42,7 @@ layers:
   - {t: SPACE, h: base}
   - RET
   - {t: DELETE, h: symbol}
-  - {t: BACKSPACE, h: nav}
+  - {t: BACKSPACE, h: tilde}
   number:
   - {t: ▽, type: trans}
   - Sft+1
@@ -172,6 +172,135 @@ layers:
   - ENTER
   - BSPC
   - DEL
+  circ:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&ecirc'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+SQT
+  - '&ucirc'
+  - '&icirc'
+  - {t: '&O_circ_down', s: '&O_circ_up'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&acirc'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SEMI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  acute:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '&E_acute_down', s: '&E_acute_up'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&oes'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '&A_acute_down', s: '&A_acute_up'}
+  - LBKT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SEMI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  tilde:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&oes'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&atilde'
+  - '&ao'
+  - '&aes'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&cao'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SQT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   function:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -188,8 +317,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F5
@@ -214,7 +343,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: function, h: toggle}
+  - {t: circ, h: toggle}
   game:
   - TAB
   - Q
@@ -251,10 +380,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT GUI
-  - {t: game, h: toggle}
+  - {t: acute, h: toggle}
   - {t: M, h: LEFT ALT}
   - SPACE
-  - {t: ESCAPE, h: fgame}
+  - {t: ESCAPE, h: function}
   - {t: ▽, type: trans}
   - RIGHT WIN
   - {t: ▽, type: trans}
@@ -283,7 +412,7 @@ layers:
   - RIGHT
   - LGUI
   - {t: ▽, type: trans}
-  - {t: nav, h: toggle}
+  - {t: tilde, h: toggle}
   - {t: LEFT GUI, h: sticky}
   - {t: LALT, h: sticky}
   - '&copy'
@@ -296,11 +425,11 @@ layers:
   - '&tabup'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: END, h: function}
+  - {t: END, h: circ}
   - LALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   fgame:
   - {t: ▽, type: trans}
   - H
@@ -326,7 +455,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: function, h: toggle}
+  - {t: circ, h: toggle}
   - ''
   - {t: base, h: toggle}
   - ''
@@ -340,13 +469,13 @@ layers:
   - {t: base, h: toggle}
   - J
   - I
-  - {t: M, type: held}
+  - M
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [16, 15]
-  k: function
+  k: circ
   l: [base]
 - p: [1, 2, 3, 4]
   k: '&close'
@@ -365,7 +494,7 @@ combos:
   l: [base]
 - p: [7, 8, 9]
   k: '&lock'
-  l: [game]
+  l: [acute]
 - p: [26, 27]
   k: '&copy'
   l: [base]
@@ -403,7 +532,7 @@ combos:
   k: '0'
   l: [base]
 - p: [10, 22]
-  k: {t: fgame, h: toggle}
+  k: {t: function, h: toggle}
   l: [base]
 - p: [7, 6]
   k: Sft+SQT
@@ -418,7 +547,7 @@ combos:
   k: Sft+LBKT
   l: [base]
 - p: [15, 16, 37]
-  k: {t: game, h: toggle}
+  k: {t: acute, h: toggle}
   l: [base]
 - p: [35, 34]
   k: LWIN
