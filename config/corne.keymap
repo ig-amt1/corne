@@ -548,7 +548,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
 
         symbol_layer {
             bindings = <
-&trans        &kp BR_ASTRK  &kp BR_AMPS  &kp BR_LBRC  &kp BR_RBRC  &kp BR_HASH    &kp BR_CIRC   &U_acute  &A_tilde  &O_tilde  &kp BR_CCED  &trans
+&trans        &kp BR_ASTRK  &kp BR_AMPS  &kp BR_LBRC  &kp BR_RBRC  &kp BR_HASH    &kp BR_CIRC   &U_acute  &A_tilde  &O_tilde  &kp BR_CCED  &teste
 &trans        &kp BR_COLON  &kp BR_AT    &kp BR_LPAR  &kp BR_RPAR  &kp BR_DQT     &kp BR_ACUT   &I_acute  &A_acute  &O_acute  &E_acute     &kp F10
 &kp LEFT_ALT  &kp BR_EXCL   &kp PERCENT  &kp BR_LBKT  &kp BR_RBKT  &kp BR_PIPE    &kp BR_TILDE  &E_circ   &A_circ   &O_circ   &A_grave     &kp F20
                                          &none        &tog 2       &cao           &none         &trans    &none

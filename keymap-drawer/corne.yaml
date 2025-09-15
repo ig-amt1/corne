@@ -98,7 +98,7 @@ layers:
   - {t: '&A_tilde_down', s: '&A_tilde_up'}
   - {t: '&O_tilde_down', s: '&O_tilde_up'}
   - SEMI
-  - {t: ▽, type: trans}
+  - '&teste'
   - {t: ▽, type: trans}
   - Sft+SLASH
   - Sft+2
