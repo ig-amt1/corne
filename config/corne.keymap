@@ -366,8 +366,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 <&A_tilde>;
         };
 
-
-
         guilt: guilt {
             compatible = "zmk,behavior-macro";
             label = "GUILT";
@@ -518,6 +516,13 @@ UNDEAD_KEY(grave, BR_GRAVE)
 
             label = "TABDWN";
         };
+
+        teste: teste {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DQT &kp SPACE &kp DQT>;
+            label = "TESTE";
+        };
     };
 
     keymap {
@@ -558,8 +563,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
                             &trans    &trans     &trans       &kp ENTER  &kp BSPC  &kp DEL
             >;
         };
-
-
 
         function_layer {
             bindings = <
