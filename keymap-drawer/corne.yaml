@@ -34,7 +34,7 @@ layers:
   - N
   - M
   - COMMA
-  - {t: DOT, h: nav}
+  - {t: DOT, h: numer}
   - INT1
   - Ctl+MUTE
   - {t: CAPSLOCK, h: accent}
@@ -42,7 +42,7 @@ layers:
   - {t: SPACE, h: base}
   - RET
   - {t: DELETE, h: symbol}
-  - {t: BACKSPACE, h: nav}
+  - {t: BACKSPACE, h: numer}
   number:
   - {t: ▽, type: trans}
   - Sft+1
@@ -215,6 +215,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: function, h: toggle}
+  numer:
+  - {t: ▽, type: trans}
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - PLUS
+  - '7'
+  - '8'
+  - '9'
+  - NUBS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+LBKT
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - Sft+0
+  - MINUS
+  - '4'
+  - '5'
+  - '6'
+  - COMMA
+  - LEFT BRACE
+  - LEFT BRACKET
+  - Sft+MINUS
+  - Sft+RBKT
+  - Sft+BSLH
+  - Sft+COMMA
+  - Sft+DOT
+  - Sft+SLASH
+  - '1'
+  - '2'
+  - {t: '3', type: held}
+  - EQUAL
+  - RIGHT BRACE
+  - ''
+  - ''
+  - ''
+  - Sft+8
+  - '0'
+  - {t: number, h: toggle}
   nav:
   - '&tab'
   - BT CLR
@@ -240,7 +283,7 @@ layers:
   - RIGHT
   - LGUI
   - {t: ▽, type: trans}
-  - {t: nav, h: toggle}
+  - {t: numer, h: toggle}
   - {t: LEFT GUI, h: sticky}
   - {t: LALT, h: sticky}
   - '&copy'
@@ -249,7 +292,7 @@ layers:
   - MUTE
   - {t: RIGHT CONTROL, h: sticky}
   - {t: RSHFT, h: sticky}
-  - {t: '&tabdwn', type: held}
+  - '&tabdwn'
   - '&tabup'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -557,7 +557,14 @@ UNDEAD_KEY(grave, BR_GRAVE)
                         &trans  &trans  &trans    &trans  &trans  &tog 4
             >;
         };
-
+        numer_layer {
+            bindings = <
+&trans            &kp BR_EXCL   &kp BR_AT    &kp BR_HASH   &kp BR_DLLR  &kp BR_PRCNT    &kp PLUS      &kp N7     &kp N8  &kp N9  &kp BR_BSLH   &trans
+&trans            &kp BR_GRAVE  &kp BR_AMPS  &kp BR_ASTRK  &kp BR_LPAR  &kp BR_RPAR     &kp MINUS     &kp N4     &kp N5  &kp N6  &kp COMMA     &kp LEFT_BRACE
+&kp LEFT_BRACKET  &kp BR_UNDER  &kp BR_LBRC  &kp BR_RBRC   &kp BR_LT    &kp BR_GT       &kp BR_COLON  &kp N1     &kp N2  &kp N3  &kp BR_EQUAL  &kp RIGHT_BRACE
+                                             &none         &none        &none           &kp BR_ASTRK  &kp BR_N0  &tog 1
+            >;
+        };
         nav_layer {
             bindings = <
 &tab    &bt BT_CLR      &bt BT_SEL 0     &bt BT_SEL 1  &out OUT_TOG  &kp PG_UP    &kp C_VOLUME_UP    &trans             &kp UP_ARROW  &trans     &trans    &caps_word
