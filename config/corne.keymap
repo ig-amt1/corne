@@ -192,7 +192,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
         lock {
             bindings = <&lock>;
             key-positions = <7 8 9>;
-            layers = <5>;
         };
 
         copy {
@@ -268,7 +267,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
         };
 
         tec {
-            bindings = <&tog 7>;
+            bindings = <&tog 0>;
             key-positions = <10 22>;
             layers = <0>;
         };
@@ -298,7 +297,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
         };
 
         gml {
-            bindings = <&tog 5>;
+            bindings = <&tog 0>;
             key-positions = <15 16 37>;
             layers = <0>;
         };
@@ -530,10 +529,10 @@ UNDEAD_KEY(grave, BR_GRAVE)
 
         base_layer {
             bindings = <
-&kp TAB    &kp Q  &kp W       &kp E           &lt 5 R       &lt 4 T        &kp Y    &kp U         &kp I            &kp O       &kp P         &kp C_VOLUME_UP
+&kp TAB    &kp Q  &kp W       &kp E           &kp R         &kp T          &kp Y    &kp U         &kp I            &kp O       &kp P         &kp C_VOLUME_UP
 &kp LSHFT  &kp A  &hm LALT S  &hm LSHFT D     &hm LCTRL F   &kp G          &kp H    &hm RCTRL J   &hm RSHFT K      &hm RALT L  &kp BR_SEMI   &kp C_VOLUME_DOWN
-&kp LCTRL  &kp Z  &kp X       &kp C           &kp V         &kp B          &kp N    &kp M         &kp COMMA        &lt 6 DOT   &kp BR_SLASH  &kp RC(C_MUTE)
-                              &lt 3 CAPSLOCK  &lt 1 ESCAPE  &lt 0 SPACE    &kp RET  &lt 2 DELETE  &lt 6 BACKSPACE
+&kp LCTRL  &kp Z  &kp X       &kp C           &kp V         &kp B          &kp N    &kp M         &kp COMMA        &lt 5 DOT   &kp BR_SLASH  &kp RC(C_MUTE)
+                              &lt 3 CAPSLOCK  &lt 1 ESCAPE  &lt 0 SPACE    &kp RET  &lt 2 DELETE  &lt 5 BACKSPACE
             >;
         };
 
@@ -573,30 +572,12 @@ UNDEAD_KEY(grave, BR_GRAVE)
             >;
         };
 
-        game_layer {
-            bindings = <
-&kp TAB         &kp Q  &kp W  &kp E           &kp R      &kp T           &kp C_VOLUME_UP    &trans         &trans          &trans  &trans        &kp BACKSPACE
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D           &kp F      &kp G           &kp C_VOLUME_DOWN  &trans         &kp LEFT_SHIFT  &trans  &trans        &to 0
-&kp LCTRL       &kp Z  &kp X  &kp C           &kp V      &kp B           &kp RG(C_MUTE)     &trans         &trans          &trans  &kp LEFT_GUI  &tog 5
-                              &mt LEFT_ALT M  &kp SPACE  &lt 7 ESCAPE    &trans             &kp RIGHT_WIN  &trans
-            >;
-        };
-
         nav_layer {
             bindings = <
 &tab    &bt BT_CLR      &bt BT_SEL 0     &bt BT_SEL 1  &out OUT_TOG  &kp PG_UP    &kp C_VOLUME_UP    &trans             &kp UP_ARROW  &trans     &trans    &caps_word
 &trans  &bt BT_CLR_ALL  &kp PRINTSCREEN  &kp HOME      &kp END       &kp PG_DN    &kp C_VOLUME_DOWN  &kp LEFT_ARROW     &kp DOWN      &kp RIGHT  &kp LGUI  &trans
-&tog 6  &sk LEFT_GUI    &sk LALT         &copy         &paste        &new_tab     &kp K_MUTE         &sk RIGHT_CONTROL  &sk RSHFT     &tabdwn    &tabup    &trans
+&tog 5  &sk LEFT_GUI    &sk LALT         &copy         &paste        &new_tab     &kp C_MUTE         &sk RIGHT_CONTROL  &sk RSHFT     &tabdwn    &tabup    &trans
                                          &trans        &lt 4 END     &kp LALT     &trans             &trans             &trans
-            >;
-        };
-
-        fgame_layer {
-            bindings = <
-&trans  &kp H   &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &kp NUMBER_4  &kp N5          &trans  &trans  &trans  &trans  &trans  &trans
-&tog 4  &none   &to 0   &none         &kp O         &kp M           &trans  &trans  &trans  &trans  &trans  &to 0
-                        &kp J         &kp I         &kp M           &trans  &trans  &trans
             >;
         };
     };

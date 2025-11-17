@@ -5,8 +5,8 @@ layers:
   - Q
   - W
   - E
-  - {t: R, h: game}
-  - {t: T, h: function}
+  - R
+  - T
   - Y
   - U
   - I
@@ -178,7 +178,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
   - F2
@@ -188,8 +188,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F5
@@ -215,49 +215,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: function, h: toggle}
-  game:
-  - TAB
-  - Q
-  - W
-  - E
-  - {t: R, type: held}
-  - T
-  - VOLUME UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BACKSPACE
-  - LEFT SHIFT
-  - A
-  - S
-  - D
-  - F
-  - G
-  - VOLUME DOWN
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: base, h: toggle}
-  - LCTRL
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - Gui+MUTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT GUI
-  - {t: game, h: toggle}
-  - {t: M, h: LEFT ALT}
-  - SPACE
-  - {t: ESCAPE, h: fgame}
-  - {t: ▽, type: trans}
-  - RIGHT WIN
-  - {t: ▽, type: trans}
   nav:
   - '&tab'
   - BT CLR
@@ -301,49 +258,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  fgame:
-  - {t: ▽, type: trans}
-  - H
-  - {t: ▽, type: trans}
-  - '1'
-  - {t: '2', type: held}
-  - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: function, h: toggle}
-  - ''
-  - {t: base, h: toggle}
-  - ''
-  - O
-  - M
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: base, h: toggle}
-  - J
-  - I
-  - {t: M, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
 combos:
 - p: [16, 15]
   k: function
@@ -365,7 +279,6 @@ combos:
   l: [base]
 - p: [7, 8, 9]
   k: '&lock'
-  l: [game]
 - p: [26, 27]
   k: '&copy'
   l: [base]
@@ -403,7 +316,7 @@ combos:
   k: '0'
   l: [base]
 - p: [10, 22]
-  k: {t: fgame, h: toggle}
+  k: {t: base, h: toggle}
   l: [base]
 - p: [7, 6]
   k: Sft+SQT
@@ -418,7 +331,7 @@ combos:
   k: Sft+LBKT
   l: [base]
 - p: [15, 16, 37]
-  k: {t: game, h: toggle}
+  k: {t: base, h: toggle}
   l: [base]
 - p: [35, 34]
   k: LWIN
