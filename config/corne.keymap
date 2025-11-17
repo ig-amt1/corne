@@ -536,21 +536,21 @@ UNDEAD_KEY(grave, BR_GRAVE)
             >;    
         };
 
-        symbol_layer {
+        accent_layer {
             bindings = <
 &trans        &kp BR_ASTRK  &kp BR_AMPS  &kp BR_LBRC  &kp BR_RBRC  &kp BR_HASH    &kp BR_CIRC   &U_acute  &A_tilde  &O_tilde  &kp BR_CCED  &teste
 &trans        &kp BR_COLON  &kp BR_AT    &kp BR_LPAR  &kp BR_RPAR  &kp BR_DQT     &kp BR_ACUT   &I_acute  &A_acute  &O_acute  &E_acute     &kp F10
-&kp LEFT_ALT  &kp BR_EXCL   &kp PERCENT  &kp BR_LBKT  &kp BR_RBKT  &kp BR_PIPE    &kp BR_TILDE  &E_circ   &A_circ   &O_circ   &A_grave     &kp F20
+&kp &trans    &kp BR_EXCL   &kp PERCENT  &kp BR_LBKT  &kp BR_RBKT  &kp BR_PIPE    &kp BR_TILDE  &E_circ   &A_circ   &O_circ   &A_grave     &kp F20
                                          &none        &tog 2       &cao           &none         &trans    &none
             >;
         };
 
-        accent_layer {
+        symbol_layer {
             bindings = <
-&trans  &none      &none    &kp HASH  &kp CARET  &none        &kp CARET  &U_acute  &A_tilde  &O_tilde  &kp BR_CCED  &trans
-&trans  &kp GRAVE  &kp DQT  &kp SQT   &kp EXCL   &kp TILDE    &kp GRAVE  &I_acute  &A_acute  &O_acute  &E_acute     &trans
-&trans  &none      &none    &ac_ccdi  &none      &none        &A_grave   &E_circ   &A_circ   &O_circ   &kp TILDE    &tog 3
-                            &trans    &trans     &trans       &kp ENTER  &kp BSPC  &kp DEL
+&trans  &kp BR_CIRC &kp BR_ACUT   &kp HASH  &kp CARET  &kp BR_TILDE        &kp BR_ASTRK  &kp BR_AMPS  &kp BR_LBRC  &kp BR_RBRC  &kp BR_HASH   &trans 
+&trans  &kp GRAVE   &kp DQT       &kp SQT   &kp EXCL   &kp TILDE           &kp BR_COLON  &kp BR_AT    &kp BR_LPAR  &kp BR_RPAR  &kp BR_DQT    &trans
+&trans  &none       &none         &ac_ccdi  &none      &none               &kp BR_EXCL   &kp PERCENT  &kp BR_LBKT  &kp BR_RBKT  &kp BR_PIPE   &trans
+                            &trans    &trans     &trans                    &kp ENTER  &kp BSPC  &kp DEL
             >;
         };
 
