@@ -71,7 +71,13 @@ UNDEAD_KEY(grave, BR_GRAVE)
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
-
+        tab_esc: tab_esc {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAB_ESC";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp TAB>, <&kp ESC>;
+        };
         hml: hml {
             compatible = "zmk,behavior-hold-tap";
             label = "HML";
