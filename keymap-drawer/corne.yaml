@@ -184,7 +184,7 @@ layers:
   - F2
   - F3
   - F4
-  - {t: ▽, type: trans}
+  - BRI UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -196,7 +196,7 @@ layers:
   - F6
   - F7
   - F8
-  - {t: ▽, type: trans}
+  - BRI DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
