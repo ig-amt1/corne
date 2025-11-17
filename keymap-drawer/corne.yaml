@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   base:
-  - TAB
+  - ESCAPE
   - Q
   - W
   - E
@@ -37,12 +37,12 @@ layers:
   - {t: DOT, h: numer}
   - INT1
   - Ctl+MUTE
-  - {t: CAPSLOCK, h: accent}
-  - {t: ESCAPE, h: number}
+  - {t: CAPSLOCK, h: symbol}
+  - {t: TAB, h: number}
   - {t: SPACE, h: base}
   - RET
-  - {t: DELETE, h: symbol}
-  - {t: BACKSPACE, h: numer}
+  - {t: DELETE, h: accent}
+  - {t: BACKSPACE, h: nav}
   number:
   - {t: ▽, type: trans}
   - '1'
@@ -86,7 +86,7 @@ layers:
   - Sft+8
   - COMMA
   - EQUAL
-  symbol:
+  accent:
   - {t: ▽, type: trans}
   - Sft+8
   - Sft+7
@@ -111,7 +111,8 @@ layers:
   - {t: '&O_acute_down', s: '&O_acute_up'}
   - {t: '&E_acute_down', s: '&E_acute_up'}
   - F10
-  - LEFT ALT
+  - ''
+  - {t: ▽, type: trans}
   - Sft+1
   - PERCENT
   - RBKT
@@ -124,23 +125,22 @@ layers:
   - {t: '&A_grave_down', s: '&A_grave_up'}
   - F20
   - ''
-  - {t: symbol, h: toggle}
+  - {t: accent, h: toggle}
   - '&cao'
-  - ''
   - {type: held}
-  - ''
-  accent:
   - {t: ▽, type: trans}
-  - ''
-  - ''
+  symbol:
+  - {t: ▽, type: trans}
+  - Sft+SQT
+  - LBKT
   - HASH
   - CARET
-  - ''
-  - CARET
-  - {t: '&U_acute_down', s: '&U_acute_up'}
-  - {t: '&A_tilde_down', s: '&A_tilde_up'}
-  - {t: '&O_tilde_down', s: '&O_tilde_up'}
-  - SEMI
+  - SQT
+  - Sft+8
+  - Sft+7
+  - Sft+RBKT
+  - Sft+BSLH
+  - Sft+3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - GRAVE
@@ -148,11 +148,11 @@ layers:
   - SQT
   - EXCL
   - TILDE
-  - GRAVE
-  - {t: '&I_acute_down', s: '&I_acute_up'}
-  - {t: '&A_acute_down', s: '&A_acute_up'}
-  - {t: '&O_acute_down', s: '&O_acute_up'}
-  - {t: '&E_acute_down', s: '&E_acute_up'}
+  - Sft+SLASH
+  - Sft+2
+  - Sft+9
+  - Sft+0
+  - Sft+GRAVE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -160,12 +160,12 @@ layers:
   - '&ac_ccdi'
   - ''
   - ''
-  - {t: '&A_grave_down', s: '&A_grave_up'}
-  - {t: '&E_circ_down', s: '&E_circ_up'}
-  - {t: '&A_circ_down', s: '&A_circ_up'}
-  - {t: '&O_circ_down', s: '&O_circ_up'}
-  - TILDE
-  - {t: accent, h: toggle}
+  - Sft+1
+  - PERCENT
+  - RBKT
+  - BSLH
+  - Sft+NUBS
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -300,7 +300,7 @@ layers:
   - LALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
 combos:
 - p: [16, 15]
   k: function
@@ -319,44 +319,12 @@ combos:
   l: [base]
 - p: [7, 8, 9]
   k: '&lock'
+  l: [nav]
 - p: [26, 27]
   k: '&copy'
   l: [base]
 - p: [27, 28]
   k: '&paste'
-  l: [base]
-- p: [1, 13]
-  k: '1'
-  l: [base]
-- p: [2, 14]
-  k: '2'
-  l: [base]
-- p: [3, 15]
-  k: '3'
-  l: [base]
-- p: [4, 16]
-  k: '4'
-  l: [base]
-- p: [5, 17]
-  k: '5'
-  l: [base]
-- p: [6, 18]
-  k: '6'
-  l: [base]
-- p: [7, 19]
-  k: '7'
-  l: [base]
-- p: [20, 8]
-  k: '8'
-  l: [base]
-- p: [9, 21]
-  k: '9'
-  l: [base]
-- p: [10, 22]
-  k: '0'
-  l: [base]
-- p: [10, 22]
-  k: {t: base, h: toggle}
   l: [base]
 - p: [7, 6]
   k: Sft+SQT

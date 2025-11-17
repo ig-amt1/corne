@@ -184,6 +184,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
         lock {
             bindings = <&lock>;
             key-positions = <7 8 9>;
+            layers = <6>;
         };
 
         copy {
@@ -195,72 +196,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
         paste {
             bindings = <&paste>;
             key-positions = <27 28>;
-            layers = <0>;
-        };
-
-        n1 {
-            bindings = <&kp NUMBER_1>;
-            key-positions = <1 13>;
-            layers = <0>;
-        };
-
-        n2 {
-            bindings = <&kp NUMBER_2>;
-            key-positions = <2 14>;
-            layers = <0>;
-        };
-
-        n3 {
-            bindings = <&kp NUMBER_3>;
-            key-positions = <3 15>;
-            layers = <0>;
-        };
-
-        n4 {
-            bindings = <&kp NUMBER_4>;
-            key-positions = <4 16>;
-            layers = <0>;
-        };
-
-        n5 {
-            bindings = <&kp NUMBER_5>;
-            key-positions = <5 17>;
-            layers = <0>;
-        };
-
-        n6 {
-            bindings = <&kp NUMBER_6>;
-            key-positions = <6 18>;
-            layers = <0>;
-        };
-
-        n7 {
-            bindings = <&kp NUMBER_7>;
-            key-positions = <7 19>;
-            layers = <0>;
-        };
-
-        n8 {
-            bindings = <&kp NUMBER_8>;
-            key-positions = <20 8>;
-            layers = <0>;
-        };
-
-        n9 {
-            bindings = <&kp NUMBER_9>;
-            key-positions = <9 21>;
-            layers = <0>;
-        };
-
-        n0 {
-            bindings = <&kp NUMBER_0>;
-            key-positions = <10 22>;
-            layers = <0>;
-        };
-
-        tec {
-            bindings = <&tog 0>;
-            key-positions = <10 22>;
             layers = <0>;
         };
 
@@ -520,37 +455,37 @@ UNDEAD_KEY(grave, BR_GRAVE)
 
         base_layer {
             bindings = <
-&kp TAB    &kp Q  &kp W       &kp E           &kp R         &kp T          &kp Y    &kp U         &kp I            &kp O       &kp P         &kp C_VOLUME_UP
-&kp LSHFT  &kp A  &hm LALT S  &hm LSHFT D     &hm LCTRL F   &kp G          &kp H    &hm RCTRL J   &hm RSHFT K      &hm RALT L  &kp BR_SEMI   &kp C_VOLUME_DOWN
-&kp LCTRL  &kp Z  &kp X       &kp C           &kp V         &kp B          &kp N    &kp M         &kp COMMA        &lt 5 DOT   &kp BR_SLASH  &kp RC(C_MUTE)
-                              &lt 3 CAPSLOCK  &lt 1 ESCAPE  &lt 0 SPACE    &kp RET  &lt 2 DELETE  &lt 5 BACKSPACE
+&kp ESCAPE  &kp Q  &kp W       &kp E           &kp R        &kp T          &kp Y    &kp U         &kp I            &kp O       &kp P         &kp C_VOLUME_UP
+&kp LSHFT   &kp A  &hm LALT S  &hm LSHFT D     &hm LCTRL F  &kp G          &kp H    &hm RCTRL J   &hm RSHFT K      &hm RALT L  &kp BR_SEMI   &kp C_VOLUME_DOWN
+&kp LCTRL   &kp Z  &kp X       &kp C           &kp V        &kp B          &kp N    &kp M         &kp COMMA        &lt 5 DOT   &kp BR_SLASH  &kp RC(C_MUTE)
+                               &lt 3 CAPSLOCK  &lt 1 TAB    &lt 0 SPACE    &kp RET  &lt 2 DELETE  &lt 6 BACKSPACE
             >;
         };
 
         number_layer {
             bindings = <
-&trans            &kp N1        &kp N2       &kp N3       &kp N4       &kp N5          &kp N6        &kp N7        &kp N8        &kp N9        &kp N0       &kp LEFT_BRACE
-&trans            &kp BR_EXCL   &kp BR_AT    &kp BR_HASH  &kp BR_DLLR  &kp BR_PRCNT    &kp BR_GRAVE  &kp BR_AMPS   &kp BR_ASTRK  &kp BR_LPAR   &kp BR_RPAR  &kp RIGHT_BRACE
-&kp LEFT_BRACKET  &kp BR_UNDER  &kp BR_LBRC  &kp BR_RBRC  &kp BR_LT    &kp BR_GT       &kp PLUS      &kp MINUS     &kp BR_COLON  &kp BR_ASTRK  &kp BR_BSLH  &none
-                                                    &none    &none        &none        &kp BR_ASTRK    &kp COMMA     &kp BR_EQUAL
-            >;    
+&trans            &kp N1        &kp N2       &kp N3       &kp N4       &kp N5          &kp N6        &kp N7       &kp N8        &kp N9        &kp N0       &kp LEFT_BRACE
+&trans            &kp BR_EXCL   &kp BR_AT    &kp BR_HASH  &kp BR_DLLR  &kp BR_PRCNT    &kp BR_GRAVE  &kp BR_AMPS  &kp BR_ASTRK  &kp BR_LPAR   &kp BR_RPAR  &kp RIGHT_BRACE
+&kp LEFT_BRACKET  &kp BR_UNDER  &kp BR_LBRC  &kp BR_RBRC  &kp BR_LT    &kp BR_GT       &kp PLUS      &kp MINUS    &kp BR_COLON  &kp BR_ASTRK  &kp BR_BSLH  &none
+                                             &none        &none        &none           &kp BR_ASTRK  &kp COMMA    &kp BR_EQUAL
+            >;
         };
 
         accent_layer {
             bindings = <
-&trans        &kp BR_ASTRK  &kp BR_AMPS  &kp BR_LBRC  &kp BR_RBRC  &kp BR_HASH    &kp BR_CIRC   &U_acute  &A_tilde  &O_tilde  &kp BR_CCED  &teste
-&trans        &kp BR_COLON  &kp BR_AT    &kp BR_LPAR  &kp BR_RPAR  &kp BR_DQT     &kp BR_ACUT   &I_acute  &A_acute  &O_acute  &E_acute     &kp F10
-&kp &trans    &kp BR_EXCL   &kp PERCENT  &kp BR_LBKT  &kp BR_RBKT  &kp BR_PIPE    &kp BR_TILDE  &E_circ   &A_circ   &O_circ   &A_grave     &kp F20
-                                         &none        &tog 2       &cao           &none         &trans    &none
+&trans  &kp BR_ASTRK  &kp BR_AMPS  &kp BR_LBRC  &kp BR_RBRC  &kp BR_HASH    &kp BR_CIRC  &U_acute      &A_tilde  &O_tilde  &kp BR_CCED  &teste
+&trans  &kp BR_COLON  &kp BR_AT    &kp BR_LPAR  &kp BR_RPAR  &kp BR_DQT     &kp BR_ACUT  &I_acute      &A_acute  &O_acute  &E_acute     &kp F10
+&kp     &trans        &kp BR_EXCL  &kp PERCENT  &kp BR_LBKT  &kp BR_RBKT    &kp BR_PIPE  &kp BR_TILDE  &E_circ   &A_circ   &O_circ      &A_grave
+                                   &kp F20      &none        &tog 2         &cao         &none         &trans
             >;
         };
 
         symbol_layer {
             bindings = <
-&trans  &kp BR_CIRC &kp BR_ACUT   &kp HASH  &kp CARET  &kp BR_TILDE        &kp BR_ASTRK  &kp BR_AMPS  &kp BR_LBRC  &kp BR_RBRC  &kp BR_HASH   &trans 
-&trans  &kp GRAVE   &kp DQT       &kp SQT   &kp EXCL   &kp TILDE           &kp BR_COLON  &kp BR_AT    &kp BR_LPAR  &kp BR_RPAR  &kp BR_DQT    &trans
-&trans  &none       &none         &ac_ccdi  &none      &none               &kp BR_EXCL   &kp PERCENT  &kp BR_LBKT  &kp BR_RBKT  &kp BR_PIPE   &trans
-                            &trans    &trans     &trans                    &kp ENTER  &kp BSPC  &kp DEL
+&trans  &kp BR_CIRC  &kp BR_ACUT  &kp HASH  &kp CARET  &kp BR_TILDE    &kp BR_ASTRK  &kp BR_AMPS  &kp BR_LBRC  &kp BR_RBRC  &kp BR_HASH  &trans
+&trans  &kp GRAVE    &kp DQT      &kp SQT   &kp EXCL   &kp TILDE       &kp BR_COLON  &kp BR_AT    &kp BR_LPAR  &kp BR_RPAR  &kp BR_DQT   &trans
+&trans  &none        &none        &ac_ccdi  &none      &none           &kp BR_EXCL   &kp PERCENT  &kp BR_LBKT  &kp BR_RBKT  &kp BR_PIPE  &trans
+                                  &trans    &trans     &trans          &kp ENTER     &kp BSPC     &kp DEL
             >;
         };
 
