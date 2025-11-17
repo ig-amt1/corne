@@ -20,7 +20,7 @@
 #define FUNC 3
 #define NAVI 4
 #define ACCE 5
-#define NUMB 1
+#define NUMB 6
 
 AC_KEY(A_acute, BR_A, BR_ACUT)
 AC_KEY(A_grave, BR_A, BR_GRAVE)
