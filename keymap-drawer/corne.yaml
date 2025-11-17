@@ -271,9 +271,6 @@ combos:
 - p: [25, 26, 27, 28]
   k: Caps Word
   l: [base]
-- p: [1, 0]
-  k: ESC
-  l: [base]
 - p: [33, 32, 31]
   k: Sft+INT1
   l: [base]
@@ -329,9 +326,6 @@ combos:
   l: [base]
 - p: [32, 31, 30]
   k: Sft+LBKT
-  l: [base]
-- p: [15, 16, 37]
-  k: {t: base, h: toggle}
   l: [base]
 - p: [35, 34]
   k: LWIN

@@ -175,13 +175,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
             layers = <0>;
         };
 
-        esc {
-            timeout-ms = <50>;
-            bindings = <&kp ESC>;
-            key-positions = <1 0>;
-            layers = <0>;
-        };
-
         quest {
             bindings = <&kp BR_QMARK>;
             key-positions = <33 32 31>;
@@ -292,12 +285,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
         grave {
             bindings = <&kp BR_GRAVE>;
             key-positions = <32 31 30>;
-            layers = <0>;
-        };
-
-        gml {
-            bindings = <&tog 0>;
-            key-positions = <15 16 37>;
             layers = <0>;
         };
 
