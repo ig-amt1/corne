@@ -281,8 +281,8 @@ layers:
   - LEFT ARROW
   - DOWN
   - RIGHT
-  - LGUI
-  - {t: ▽, type: trans}
+  - '&tabdwn'
+  - '&tabup'
   - {t: numer, h: toggle}
   - {t: LEFT GUI, h: sticky}
   - {t: LALT, h: sticky}
@@ -290,11 +290,11 @@ layers:
   - '&paste'
   - '&new_tab'
   - Ctl+MUTE
-  - {t: RIGHT CONTROL, h: sticky}
-  - {t: RSHFT, h: sticky}
-  - '&tabdwn'
-  - '&tabup'
-  - {t: ▽, type: trans}
+  - {t: PREVIOUS, h: sticky}
+  - {t: PLAY PAUSE, h: sticky}
+  - NEXT
+  - '&teste'
+  - '&new_tab'
   - {t: ▽, type: trans}
   - {t: END, h: function}
   - LALT
