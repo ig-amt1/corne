@@ -295,7 +295,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 <&kp BR_CCED>,
                 <&macro_tap_time 20>,
                 <&A_tilde>;
-
         };
 
         guilt: guilt {
@@ -407,20 +406,6 @@ UNDEAD_KEY(grave, BR_GRAVE)
             label = "NEW_TAB";
         };
 
-        shift: shift {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_tap>,
-                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
-                <&macro_release>,
-                <&kp LEFT_SHIFT>;
-
-            label = "SHIFT";
-        };
-
         tabup: tabup {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -452,14 +437,23 @@ UNDEAD_KEY(grave, BR_GRAVE)
         teste: teste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = 
+            bindings =
                 <&macro_press>,
                 <&kp LEFT_GUI>,
                 <&macro_tap>,
                 <&kp DOT>,
                 <&macro_release>,
                 <&kp LEFT_GUI>;
+
             label = "TESTE";
+        };
+
+        TEST1: TEST1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&cao>, <&macro_tap>, <&kp O>;
+
+            label = "TEST1";
         };
     };
 
@@ -522,10 +516,10 @@ UNDEAD_KEY(grave, BR_GRAVE)
 
         nav_layer {
             bindings = <
-&tab    &bt BT_CLR      &bt BT_SEL 0     &bt BT_SEL 1  &out OUT_TOG  &kp PG_UP    &kp C_VOLUME_UP    &trans          &kp UP_ARROW      &trans      &trans   &caps_word
-&trans  &bt BT_CLR_ALL  &kp PRINTSCREEN  &kp HOME      &kp END       &kp PG_DN    &kp C_VOLUME_DOWN  &kp LEFT_ARROW  &kp DOWN          &kp RIGHT   &tabdwn  &tabup
-&tog 5  &sk LEFT_GUI    &sk LALT         &copy         &paste        &new_tab     &kp RC(C_MUTE)     &sk C_PREVIOUS  &sk C_PLAY_PAUSE  &kp C_NEXT  &teste   &new_tab
-                                         &trans        &lt 4 END     &kp LALT     &trans             &trans          &trans
+&tab    &bt BT_CLR      &bt BT_SEL 0     &bt BT_SEL 1  &out OUT_TOG  &kp PG_UP    &kp C_VOLUME_UP    &tabdwn         &kp UP_ARROW      &tabup      &new_tab  &caps_word
+&trans  &bt BT_CLR_ALL  &kp PRINTSCREEN  &kp HOME      &kp END       &kp PG_DN    &kp C_VOLUME_DOWN  &kp LEFT_ARROW  &kp DOWN          &kp RIGHT   &trans    &tab
+&tog 5  &sk LEFT_GUI    &sk LALT         &copy         &paste        &new_tab     &kp RC(C_MUTE)     &sk C_PREVIOUS  &sk C_PLAY_PAUSE  &kp C_NEXT  &trans    &teste
+                                         &TEST1        &lt 4 END     &kp LALT     &trans             &trans          &trans
             >;
         };
     };

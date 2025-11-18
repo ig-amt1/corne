@@ -266,10 +266,10 @@ layers:
   - OUT TOG
   - PG UP
   - VOLUME UP
-  - {t: ▽, type: trans}
+  - '&tabdwn'
   - UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&tabup'
+  - '&new_tab'
   - Caps Word
   - {t: ▽, type: trans}
   - BT CLR ALL
@@ -281,8 +281,8 @@ layers:
   - LEFT ARROW
   - DOWN
   - RIGHT
-  - '&tabdwn'
-  - '&tabup'
+  - {t: ▽, type: trans}
+  - '&tab'
   - {t: numer, h: toggle}
   - {t: LEFT GUI, h: sticky}
   - {t: LALT, h: sticky}
@@ -293,9 +293,9 @@ layers:
   - {t: PREVIOUS, h: sticky}
   - {t: PLAY PAUSE, h: sticky}
   - NEXT
-  - '&teste'
-  - '&new_tab'
   - {t: ▽, type: trans}
+  - '&teste'
+  - '&TEST1'
   - {t: END, h: function}
   - LALT
   - {t: ▽, type: trans}
