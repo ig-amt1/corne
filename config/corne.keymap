@@ -268,7 +268,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
 
         aspas {
             bindings = <&kp BR_DQT>;
-            key-positions = <11 10>;
+            key-positions = <10 9>;
         };
     };
 
