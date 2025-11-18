@@ -424,9 +424,7 @@ svg.keymap {
 </a></g>
 <g class="combo combopos-19">
 <rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
-<text x="728" y="42" class="combo tap">
-<tspan x="728" dy="-0.6em">Sft+</tspan><tspan x="728" dy="1.2em">GRAVE</tspan>
-</text>
+<text x="728" y="42" class="combo tap">&amp;aspas</text>
 </g>
 </g>
 </g>
@@ -647,9 +645,7 @@ svg.keymap {
 </a></g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
-<text x="728" y="42" class="combo tap">
-<tspan x="728" dy="-0.6em">Sft+</tspan><tspan x="728" dy="1.2em">GRAVE</tspan>
-</text>
+<text x="728" y="42" class="combo tap">&amp;aspas</text>
 </g>
 </g>
 </g>
@@ -873,9 +869,7 @@ svg.keymap {
 </a></g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
-<text x="728" y="42" class="combo tap">
-<tspan x="728" dy="-0.6em">Sft+</tspan><tspan x="728" dy="1.2em">GRAVE</tspan>
-</text>
+<text x="728" y="42" class="combo tap">&amp;aspas</text>
 </g>
 </g>
 </g>
@@ -1084,9 +1078,7 @@ svg.keymap {
 </a></g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
-<text x="728" y="42" class="combo tap">
-<tspan x="728" dy="-0.6em">Sft+</tspan><tspan x="728" dy="1.2em">GRAVE</tspan>
-</text>
+<text x="728" y="42" class="combo tap">&amp;aspas</text>
 </g>
 </g>
 </g>
@@ -1292,9 +1284,7 @@ svg.keymap {
 </a></g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
-<text x="728" y="42" class="combo tap">
-<tspan x="728" dy="-0.6em">Sft+</tspan><tspan x="728" dy="1.2em">GRAVE</tspan>
-</text>
+<text x="728" y="42" class="combo tap">&amp;aspas</text>
 </g>
 </g>
 </g>
@@ -1499,9 +1489,7 @@ svg.keymap {
 </a></g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
-<text x="728" y="42" class="combo tap">
-<tspan x="728" dy="-0.6em">Sft+</tspan><tspan x="728" dy="1.2em">GRAVE</tspan>
-</text>
+<text x="728" y="42" class="combo tap">&amp;aspas</text>
 </g>
 </g>
 </g>
@@ -1738,9 +1726,7 @@ svg.keymap {
 </a></g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
-<text x="728" y="42" class="combo tap">
-<tspan x="728" dy="-0.6em">Sft+</tspan><tspan x="728" dy="1.2em">GRAVE</tspan>
-</text>
+<text x="728" y="42" class="combo tap">&amp;aspas</text>
 </g>
 </g>
 </g>
