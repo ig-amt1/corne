@@ -475,6 +475,13 @@ UNDEAD_KEY(grave, BR_GRAVE)
 
             label = "UNDO";
         };
+
+        aspas: aspas {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DQT &kp SPACE &kp DQT>;
+            label = "ASPAS";
+        };
     };
 
     keymap {
