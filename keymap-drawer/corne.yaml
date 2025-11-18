@@ -332,7 +332,7 @@ combos:
 - p: [18, 19]
   k: LBKT
   l: [base]
-- p: [31, 30]
+- p: [1, 0]
   k: SQT
   l: [base]
 - p: [32, 31, 30]
@@ -356,3 +356,5 @@ combos:
   k: F5
 - p: [17, 16]
   k: numer
+- p: [11, 10]
+  k: '&paste'

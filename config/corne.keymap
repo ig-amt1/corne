@@ -71,6 +71,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
+
         tab_esc: tab_esc {
             compatible = "zmk,behavior-tap-dance";
             label = "TAB_ESC";
@@ -78,6 +79,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
             tapping-term-ms = <200>;
             bindings = <&kp TAB>, <&kp ESC>;
         };
+
         hml: hml {
             compatible = "zmk,behavior-hold-tap";
             label = "HML";
@@ -219,7 +221,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
 
         til {
             bindings = <&kp BR_TILDE>;
-            key-positions = <31 30>;
+            key-positions = <1 0>;
             layers = <0>;
         };
 
@@ -269,6 +271,11 @@ UNDEAD_KEY(grave, BR_GRAVE)
         number {
             bindings = <&mo 5>;
             key-positions = <17 16>;
+        };
+
+        aspas {
+            bindings = <&paste>;
+            key-positions = <11 10>;
         };
     };
 
