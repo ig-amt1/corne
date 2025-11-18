@@ -34,12 +34,12 @@ layers:
   - N
   - M
   - COMMA
-  - {t: DOT, h: numer}
+  - DOT
   - INT1
   - Ctl+MUTE
   - {t: CAPSLOCK, h: symbol}
   - {t: TAB, h: number}
-  - {t: SPACE, h: base}
+  - SPACE
   - RET
   - {t: DELETE, h: accent}
   - {t: BACKSPACE, h: nav}
@@ -55,8 +55,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - LEFT BRACE
   - {t: ▽, type: trans}
+  - RIGHT BRACKET
   - Sft+1
   - Sft+2
   - Sft+3
@@ -79,7 +79,7 @@ layers:
   - Sft+SLASH
   - Sft+8
   - NUBS
-  - ''
+  - LEFT BRACE
   - ''
   - {type: held}
   - ''
@@ -232,8 +232,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - MINUS
   - '4'
   - '5'
@@ -249,7 +249,7 @@ layers:
   - Sft+SLASH
   - '1'
   - '2'
-  - {t: '3', type: held}
+  - '3'
   - EQUAL
   - RIGHT BRACE
   - ''
@@ -259,43 +259,43 @@ layers:
   - '0'
   - {t: numer, h: toggle}
   nav:
-  - '&tab'
+  - BT CLR ALL
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - OUT TOG
-  - PG UP
+  - {t: ▽, type: trans}
   - VOLUME UP
-  - '&tabdwn'
+  - {t: ▽, type: trans}
   - UP ARROW
+  - '&tabdwn'
   - '&tabup'
   - '&new_tab'
-  - Caps Word
   - {t: ▽, type: trans}
-  - BT CLR ALL
-  - PRINTSCREEN
-  - HOME
-  - END
-  - PG DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - VOLUME DOWN
   - LEFT ARROW
   - DOWN
   - RIGHT
   - {t: ▽, type: trans}
   - '&tab'
-  - {t: numer, h: toggle}
-  - {t: LEFT GUI, h: sticky}
-  - {t: LALT, h: sticky}
-  - '&copy'
-  - '&paste'
-  - '&new_tab'
+  - '&print'
+  - HOME
+  - END
+  - PG UP
+  - PG DN
+  - '&undo'
   - Ctl+MUTE
   - {t: PREVIOUS, h: sticky}
   - {t: PLAY PAUSE, h: sticky}
   - NEXT
   - {t: ▽, type: trans}
   - '&teste'
-  - '&TEST1'
+  - Caps Word
   - {t: END, h: function}
   - LALT
   - {t: ▽, type: trans}
