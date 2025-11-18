@@ -294,9 +294,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
                 <&macro_tap>,
                 <&kp BR_CCED>,
                 <&macro_tap_time 20>,
-                <&A_tilde>,
-                <&macro_tap_time 20>,
-                <&kp BR_O>;
+                <&A_tilde>;
 
         };
 
@@ -454,7 +452,13 @@ UNDEAD_KEY(grave, BR_GRAVE)
         teste: teste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DQT &kp SPACE &kp DQT>;
+            bindings = 
+                <&macro_press>,
+                <&kp LEFT_GUI>,
+                <&macro_tap>,
+                <&kp DOT>,
+                <&macro_release>,
+                <&kp LEFT_GUI>;
             label = "TESTE";
         };
     };
