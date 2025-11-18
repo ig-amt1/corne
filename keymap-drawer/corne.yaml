@@ -357,4 +357,4 @@ combos:
 - p: [17, 16]
   k: numer
 - p: [11, 10]
-  k: '&paste'
+  k: Sft+GRAVE
