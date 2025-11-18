@@ -326,10 +326,10 @@ combos:
 - p: [27, 28]
   k: '&paste'
   l: [base]
-- p: [7, 6]
+- p: [7, 8]
   k: Sft+SQT
   l: [base]
-- p: [18, 19]
+- p: [9, 8]
   k: LBKT
   l: [base]
 - p: [1, 0]
