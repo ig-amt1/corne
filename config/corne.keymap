@@ -1,3 +1,8 @@
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+
+#include <dt-bindings/zmk/pointing.h>
+
 #include "keys_br_abnt2.h"
 #include "helper.h"
 #include "accents.dtsi"
@@ -6,6 +11,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+
+
 
 #define BASE 0
 #define NUME 1
