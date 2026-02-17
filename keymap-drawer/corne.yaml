@@ -266,7 +266,7 @@ layers:
   - OUT TOG
   - {t: ▽, type: trans}
   - VOLUME UP
-  - {t: ▽, type: trans}
+  - '&print'
   - UP ARROW
   - '&tabdwn'
   - '&tabup'
