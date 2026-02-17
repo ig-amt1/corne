@@ -264,7 +264,7 @@ layers:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - OUT TOG
-  - {t: ▽, type: trans}
+  - '&key_repeat'
   - VOLUME UP
   - '&print'
   - UP ARROW
