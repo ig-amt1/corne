@@ -36,7 +36,7 @@ layers:
   - COMMA
   - DOT
   - INT1
-  - PP
+  - SEMI
   - {t: CAPSLOCK, h: symbol}
   - {t: TAB, h: number}
   - SPACE
