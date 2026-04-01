@@ -10,6 +10,38 @@ manifest:
       url-base: https://github.com/englmaxi
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: v0.3.0
+      import: app/west.yml
+    - name: mario-peripheral-animation
+      remote: gpeye
+      revision: main 
+    - name: prospector-zmk-module
+      remote: tokyo2006
+      revision: micro_spi2  
+    - name: zmk-dongle-display
+      remote: englmaxi
+      revision: main
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
+
+  self:
+    path: configmanifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: gpeye
+      url-base: https://github.com/GPeye
+    - name: tokyo2006
+      url-base: https://github.com/tokyo2006
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
     - name: englmaxi # <--- ADICIONE ESTE
       url_base: https://github.com/englmaxi
 
