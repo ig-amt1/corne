@@ -82,7 +82,7 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
 &pro_micro_i2c {
     status = "okay";
 
-    oled: ssd1306@3c {
+  //  oled: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
         width = <128>;
@@ -119,7 +119,7 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
     };
 };
 // 128x32 OLED
-&pro_micro_i2c {
+/* &pro_micro_i2c {
     status = "okay";
 
     oled: ssd1306@3c {
@@ -137,11 +137,11 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
         inversion-on;
         prechargep = <0x22>;
     };
-};
+}; */
 
 // 128x64 OLED model sh1106
 
-&pro_micro_i2c {
+/* &pro_micro_i2c {
     status = "okay";
     oled: sh1106@3c {
         compatible = "sinowealth,sh1106";
@@ -157,10 +157,10 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
         inversion-on;
         prechargep = <0x22>;
         };
-};
+}; */
 
 // 128x128 OLED model sh1107
-&pro_micro_i2c {
+/* &pro_micro_i2c {
     status = "okay";
     oled: sh1106@3c {
         compatible = "sinowealth,sh1106";
@@ -176,7 +176,48 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
         inversion-on;
         prechargep = <0x22>;
         };
+}; */
+
+
+&pinctrl {
+    i2c0_default: i2c0_default {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
+                <NRF_PSEL(TWIM_SCL, 0, 20)>;
+        };
+    };
+
+    i2c0_sleep: i2c0_sleep {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0,17)>,
+                <NRF_PSEL(TWIM_SCL, 0, 20)>;
+            low-power-enable;
+        };
+    };	
+}; 
+
+&i2c0 {
+	status = "okay";
+	compatible = "nordic,nrf-twi";
+    pinctrl-0 = <&i2c0_default>;
+    pinctrl-1 = <&i2c0_sleep>;
+	oled: sh1106@3c {
+        compatible = "sinowealth,sh1106";
+        reg = <0x3c>;
+        width = <129>;
+        height = <64>;
+        segment-offset = <1>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <63>;
+        segment-remap;
+        com-invdir;
+        inversion-on;
+        prechargep = <0x22>;
+	};
 };
+
+
 
 */
 // vim: filetype=dts fdm=marker:
