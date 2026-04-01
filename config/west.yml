@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/englmaxi
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    - name: englmaxi # <--- ADICIONE ESTE
+      url_base: https://github.com/englmaxi
 
   projects:
     - name: zmk
@@ -27,6 +29,9 @@ manifest:
       revision: v0.3
     - name: zmk-nice-oled
       remote: mctechnology17
+      revision: main
+    - name: zmk-dongle-display # <--- ADICIONE ESTE
+      remote: englmaxi
       revision: main
 
   self:
