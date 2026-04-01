@@ -12,4 +12,3 @@ config SHIELD_CORNE_LEFT_PERIPHERAL
 
 config SHIELD_CORNE_DONGLE
     def_bool $(shields_list_contains,corne_dongle)
-    select SHIELD_NICE_CUSTOM
