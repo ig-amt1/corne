@@ -1,19 +1,9 @@
   projects:
-
-
     - name: zmk
-
       remote: urob
-
-
       revision: main
-
-
       revision: v0.2
-
       import: app/west.yml
-
   self:
-
     path: config
 
