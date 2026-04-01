@@ -8,7 +8,6 @@ manifest:
       url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
-    # Adicionados para os novos widgets:
     - name: joelspadin
       url-base: https://github.com/joelspadin
     - name: mctechnology17
@@ -28,7 +27,6 @@ manifest:
     - name: zmk-dongle-display
       remote: englmaxi
       revision: v0.3
-    # Adicionados os módulos de animação e widgets:
     - name: zmk-bongo-cat
       remote: joelspadin
       revision: main
@@ -36,30 +34,5 @@ manifest:
       remote: mctechnology17
       revision: main
 
-  self:
-    path: configmanifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: gpeye
-      url-base: https://github.com/GPeye
-    - name: tokyo2006
-      url-base: https://github.com/tokyo2006
-    - name: englmaxi
-      url-base: https://github.com/englmaxi
-  projects:
-    - name: mario-peripheral-animation
-      remote: gpeye
-      revision: main 
-    - name: zmk
-      remote: zmkfirmware
-      revision: v0.3.0
-      import: app/west.yml
-    - name: prospector-zmk-module                 # <--- and these
-      remote: tokyo2006                          # <---
-      revision: micro_spi2  
-    - name: zmk-dongle-display
-      remote: englmaxi
-      revision: v0.3
   self:
     path: config
