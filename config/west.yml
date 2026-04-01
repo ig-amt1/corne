@@ -27,7 +27,7 @@ manifest:
     - name: zmk-dongle-display
       remote: englmaxi
       revision: v0.3
-    - name: zmk-bongo-cat
+    - name: zmk-widget-bongo-cat
       remote: joelspadin
       revision: main
     - name: zmk-nice-oled
