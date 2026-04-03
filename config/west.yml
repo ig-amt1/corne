@@ -8,7 +8,6 @@ manifest:
       url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
-
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,9 +18,9 @@ manifest:
       revision: main 
     - name: prospector-zmk-module
       remote: tokyo2006
-      revision: micro_spi2  
+      revision: change_spi2  
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: main
+      revision: v0.3
   self:
     path: config
