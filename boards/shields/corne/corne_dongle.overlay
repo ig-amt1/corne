@@ -11,9 +11,7 @@
     transform = <&default_transform>;
 };
 
-&foostan_corne_5col_layout {
-    transform = <&five_column_transform>;
-};
+
 
 / {
     chosen {
