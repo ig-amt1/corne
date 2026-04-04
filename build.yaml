@@ -5,16 +5,18 @@ include:
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Corne\"
     artifact-name: corne_left
     snippet: studio-rpc-usb-uart
+    
   - board: nice_nano_v2
     shield: corne_right  
     artifact-name: corne_right
+    
   - board: nice_nano_v2
     shield: corne_left_peripheral  
     artifact-name: corne_left_peripheral
   
-    # nice_nano_v2 dongle
+  # nice_nano_v2 dongle com suporte a OLED 1.3"
   - board: nice_nano_v2
-    shield: corne_dongle
+    shield: corne_dongle dongle_display  # ADICIONADO: dongle_display aqui
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Crkbd\"
     artifact-name: corne_dongle
     snippet: studio-rpc-usb-uart
@@ -22,10 +24,3 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
     artifact-name: reset
-  
-
-
-
-
-
-
