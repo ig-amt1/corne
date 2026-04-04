@@ -1,25 +1,25 @@
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: corne_left  
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Corne\"
     artifact-name: corne_left
     snippet: studio-rpc-usb-uart
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: corne_right  
     artifact-name: corne_right
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: corne_left_peripheral  
     artifact-name: corne_left_peripheral
   
     # nice_nano_v2 dongle
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: corne_dongle dongle_display
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Crkbd\"
     artifact-name: corne_dongle
     snippet: studio-rpc-usb-uart
 
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: settings_reset
     artifact-name: reset
   
