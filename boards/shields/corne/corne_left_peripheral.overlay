@@ -6,11 +6,18 @@
 
 #include "corne.dtsi"
 
-/* Desativa o I2C no periférico para liberar os pinos 19 e 20 para a matriz de teclas */
+/* Mata o I2C e o Display antes de começar para liberar os pinos 19 e 20 */
+/ {
+    chosen {
+        /delete-property/ zephyr,display;
+    };
+};
+
 &pro_micro_i2c {
     status = "disabled";
 };
 
+/* Garante que o kscan não tenha lixo de outros overlays */
 &kscan0 {
     col-gpios
         = <&pro_micro 21 GPIO_ACTIVE_HIGH>
@@ -21,5 +28,3 @@
         , <&pro_micro 14 GPIO_ACTIVE_HIGH>
         ;
 };
-
-// vim: filetype=dts fdm=marker:
