@@ -22,6 +22,7 @@ manifest:
       revision: micro_spi2  
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: main
+      revision: v0.3  # Alterado de 'main' para 'v0.3' para ser compatível com seu ZMK v0.3.0
+      
   self:
     path: config
