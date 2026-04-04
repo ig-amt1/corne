@@ -6,6 +6,11 @@
 
 #include "corne.dtsi"
 
+/* Desativa o I2C no periférico para liberar os pinos 19 e 20 para a matriz de teclas */
+&pro_micro_i2c {
+    status = "disabled";
+};
+
 &kscan0 {
     col-gpios
         = <&pro_micro 21 GPIO_ACTIVE_HIGH>
