@@ -2,15 +2,25 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
+    - name: tokyo2006
+      url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3.0
       import: app/west.yml
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
+    - name: prospector-zmk-module
+      remote: tokyo2006
+      revision: change_spi2
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: main # use 'v0.3' instead of 'main' if you use have pinned zmk to 'v0.3' or below
+      revision: main
   self:
     path: config
