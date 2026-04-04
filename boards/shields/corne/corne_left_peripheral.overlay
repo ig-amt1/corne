@@ -1,23 +1,22 @@
 /*
  * Copyright (c) 2020 Pete Johanson
- *
  * SPDX-License-Identifier: MIT
  */
 
 #include "corne.dtsi"
 
-/* Mata o I2C e o Display antes de começar para liberar os pinos 19 e 20 */
+/* Remove a referência do display do sistema de build */
 / {
     chosen {
         /delete-property/ zephyr,display;
     };
 };
 
+/* Desativa o barramento I2C para liberar os pinos 19 e 20 para as teclas */
 &pro_micro_i2c {
     status = "disabled";
 };
 
-/* Garante que o kscan não tenha lixo de outros overlays */
 &kscan0 {
     col-gpios
         = <&pro_micro 21 GPIO_ACTIVE_HIGH>
