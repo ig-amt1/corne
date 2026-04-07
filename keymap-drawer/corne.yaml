@@ -40,7 +40,7 @@ layers:
   - {t: CAPSLOCK, h: symbol}
   - {t: TAB, h: number}
   - SPACE
-  - {t: ENTER, h: mouse}
+  - {t: ENTER, h: mous}
   - {t: DELETE, h: accent}
   - {t: BACKSPACE, h: nav}
   number:
@@ -301,7 +301,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  mouse:
+  mous:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

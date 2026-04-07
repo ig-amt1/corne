@@ -14,6 +14,7 @@
 #define NAVI 4
 #define ACCE 5
 #define NUMB 6
+#define MOUS 7
 
 AC_KEY(A_acute, BR_A, BR_ACUT)
 AC_KEY(A_grave, BR_A, BR_GRAVE)
@@ -545,7 +546,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
             >;
         };
 
-        mouse {
+        mous_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &kp C
 &trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
