@@ -263,8 +263,8 @@ layers:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
   - OUT TOG
-  - '&key_repeat'
   - VOLUME UP
   - '&print'
   - UP ARROW
