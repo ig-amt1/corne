@@ -347,6 +347,7 @@ layers:
 combos:
 - p: [1, 2]
   k: Sft+GRAVE
+  l: [base]
 - p: [16, 15]
   k: function
   l: [base]
@@ -391,15 +392,21 @@ combos:
   l: [base]
 - p: [13, 25]
   k: F1
+  l: [base]
 - p: [14, 26]
   k: F2
+  l: [base]
 - p: [15, 27]
   k: F3
+  l: [base]
 - p: [16, 28]
   k: F4
+  l: [base]
 - p: [17, 29]
   k: F5
 - p: [17, 16]
   k: numer
+  l: [base]
 - p: [10, 9]
   k: '&aspas'
+  l: [base]

@@ -142,6 +142,7 @@ UNDEAD_KEY(grave, BR_GRAVE)
             timeout-ms = <50>;
             key-positions = <1 2>;
             bindings = <&kp BR_DQT>;
+            layers = <0>;
         };
 
         fn {
@@ -235,21 +236,25 @@ UNDEAD_KEY(grave, BR_GRAVE)
         f1 {
             bindings = <&kp F1>;
             key-positions = <13 25>;
+            layers = <0>;
         };
 
         f2 {
             bindings = <&kp F2>;
             key-positions = <14 26>;
+            layers = <0>;
         };
 
         f3 {
             bindings = <&kp F3>;
             key-positions = <15 27>;
+            layers = <0>;
         };
 
         f4 {
             bindings = <&kp F4>;
             key-positions = <16 28>;
+            layers = <0>;
         };
 
         f5 {
@@ -260,11 +265,13 @@ UNDEAD_KEY(grave, BR_GRAVE)
         number {
             bindings = <&mo 5>;
             key-positions = <17 16>;
+            layers = <0>;
         };
 
         aspas {
             bindings = <&aspas>;
             key-positions = <10 9>;
+            layers = <0>;
         };
     };
 
