@@ -138,11 +138,11 @@ UNDEAD_KEY(grave, BR_GRAVE)
     combos {
         compatible = "zmk,combos";
 
-         asp {
+        asp {
             timeout-ms = <50>;
-            key-positions = <13 16>;
+            key-positions = <0 1>;
             bindings = <&kp BR_DQT>;
-          };
+        };
 
         fn {
             timeout-ms = <50>;
