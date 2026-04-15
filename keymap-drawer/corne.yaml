@@ -345,7 +345,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [13, 16]
+- p: [1, 2]
   k: Sft+GRAVE
 - p: [16, 15]
   k: function
