@@ -44,47 +44,47 @@ layers:
   - {t: DELETE, h: accent}
   - {t: BACKSPACE, h: nav}
   number:
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - RIGHT BRACKET
+  - ESCAPE
   - Sft+1
   - Sft+2
   - Sft+3
   - Sft+4
   - Sft+5
+  - PLUS
+  - '7'
+  - '8'
+  - '9'
+  - NUBS
+  - BACKSPACE
+  - RIGHT BRACKET
   - Sft+LBKT
   - Sft+7
   - Sft+8
   - Sft+9
   - Sft+0
-  - RIGHT BRACE
+  - MINUS
+  - '4'
+  - '5'
+  - '6'
+  - COMMA
+  - LEFT BRACE
   - LEFT BRACKET
   - Sft+MINUS
   - Sft+RBKT
   - Sft+BSLH
   - Sft+COMMA
   - Sft+DOT
-  - PLUS
-  - MINUS
   - Sft+SLASH
+  - '1'
+  - '2'
+  - '3'
+  - EQUAL
+  - RIGHT BRACE
   - Sft+8
-  - NUBS
-  - LEFT BRACE
-  - ''
   - {type: held}
   - ''
-  - Sft+8
   - COMMA
+  - '0'
   - EQUAL
   accent:
   - {t: ▽, type: trans}
